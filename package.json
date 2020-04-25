@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
+    "publish-patch": "np patch",
+    "publish-minor": "np minor",
+    "publish-major": "np major",
     "lint": "eslint **/*.js --ignore-pattern node_modules/"
   },
   "gitHooks": {

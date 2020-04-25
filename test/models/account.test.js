@@ -50,7 +50,7 @@ describe('account', () => {
     });
 
     test('It should increment the id with each document', async () => {
-      const documentList = await AccountModel.find();
+      const documentList = await AccountModel.find({});
       console.log(documentList);
 
       expect(documentList[0].username).toBe(createTwoAccount.accounts[0].username);
