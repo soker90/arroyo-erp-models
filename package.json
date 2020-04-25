@@ -5,9 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
-    "publish-patch": "np patch",
-    "publish-minor": "np minor",
-    "publish-major": "np major",
     "lint": "eslint **/*.js --ignore-pattern node_modules/"
   },
   "gitHooks": {
@@ -28,6 +25,13 @@
   ],
   "author": "Eduardo Parra Mazuecos",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soker90/arroyo-erp-models.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@soker90"
+  },
   "dependencies": {
     "bcrypt": "^4.0.1",
     "bluebird": "^3.7.2",
