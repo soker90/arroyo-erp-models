@@ -35,21 +35,23 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@soker90"
   },
+  "np": {
+    "yarn": false
+  },
   "dependencies": {
     "bcrypt": "^4.0.1",
     "bluebird": "^3.7.2",
-    "mongodb-memory-server": "^6.3.1",
-    "mongoose": "^5.9.2",
-    "mongoose-connect": "0.0.3",
-    "np": "^6.2.0"
+    "mongodb-memory-server": "^6.5.2",
+    "mongoose": "^5.9.10",
+    "mongoose-connect": "0.0.3"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.20.1",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jest": "^23.8.1",
-    "jest": "^25.1.0",
-    "jest-circus": "^25.1.0",
+    "jest": "^25.4.0",
+    "jest-circus": "^25.4.0",
     "pre-commit": "^1.2.2"
   },
   "jest": {
