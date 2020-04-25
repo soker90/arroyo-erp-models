@@ -13,7 +13,7 @@ registry=https://npm.pkg.github.com/soker90
 ## Installation
 
 ```bash
-  npm install @soker90/arroyo-erp-models --save
+  npm install arroyo-erp-models@npm:@soker90/arroyo-erp-models --save
 ```
 
 ## Available models
