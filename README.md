@@ -1,10 +1,10 @@
-# Aleteia Models
+# Arroyo Erp Models
 
 This is a module of models for Arroyo ERP.
 
 ## Installation
 
-```zsh
+```bash
   npm i -S arroyo-erp-models # dev
 ```
 
