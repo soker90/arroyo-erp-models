@@ -2,10 +2,18 @@
 
 This is a module of models for Arroyo ERP.
 
+## Configuration
+
+Create file .npmrc in root directory of the project:
+
+```
+registry=https://npm.pkg.github.com/soker90
+```
+
 ## Installation
 
 ```bash
-  npm i -S arroyo-erp-models # dev
+  npm install @soker90/arroyo-erp-models --save
 ```
 
 ## Available models
