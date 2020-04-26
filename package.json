@@ -32,9 +32,6 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@soker90"
   },
-  "np": {
-    "yarn": false
-  },
   "dependencies": {
     "bcrypt": "^4.0.1",
     "bluebird": "^3.7.2",

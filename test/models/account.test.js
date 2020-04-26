@@ -1,5 +1,5 @@
-/* eslint-disable max-len */
 const Promise = require('bluebird');
+const {compare} = require('bcrypt');
 
 const {
         createOneAccount,
@@ -35,12 +35,10 @@ describe('account', () => {
   });
 
   describe('Create multiple accounts', () => {
-    beforeAll(() => (
-      Promise.all([
-        AccountModel.create(createTwoAccount.accounts[0]),
-        AccountModel.create(createTwoAccount.accounts[1]),
-      ])
-    ));
+    beforeAll(async () => {
+      await AccountModel.create(createTwoAccount.accounts[0]);
+      await AccountModel.create(createTwoAccount.accounts[1]);
+    });
 
     afterAll(() => fakeDatabase.clean());
 
@@ -49,14 +47,43 @@ describe('account', () => {
       expect(counter).toBe(2);
     });
 
-    test('It should increment the id with each document', async () => {
+    test('Check accounts created', async () => {
       const documentList = await AccountModel.find({});
-      console.log(documentList);
 
       expect(documentList[0].username).toBe(createTwoAccount.accounts[0].username);
-      expect(documentList[0].password).toBeDefined();
+      expect(compare(documentList[0].password, createTwoAccount.accounts[0].password)).toBeTruthy();
       expect(documentList[1].username).toBe(createTwoAccount.accounts[1].username);
-      expect(documentList[1].password).toBeDefined();
+      expect(compare(documentList[1].password, createTwoAccount.accounts[1].password)).toBeTruthy();
+    });
+
+    test('Password modified', async () => {
+      const document = await AccountModel.findOneAndUpdate(
+        {username: createOneAccount.username},
+        {
+          $set: {
+            password: 'passwordChanged',
+          },
+        },
+        {new: true, upsert: true});
+
+      expect(compare(document.password, 'passwordChanged')).toBeTruthy();
+
+    });
+
+    test('Username modified', async () => {
+      const document = await AccountModel.findOneAndUpdate(
+        {username: createTwoAccount.accounts[0].username},
+        {
+          $set: {
+            username: 'usernameChanged',
+          },
+        },
+        {new: true});
+
+      expect(compare(document.username, 'usernameChanged')).toBeTruthy();
+      expect(document.username).toBe('usernameChanged');
+      expect(compare(document.password, createTwoAccount.accounts[0].password)).toBeTruthy();
     });
   });
+
 });
