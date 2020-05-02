@@ -6,11 +6,7 @@ class MongoDbEnvironment extends NodeEnvironment {
   constructor(config) {
     super(config);
     // eslint-disable-next-line new-cap
-    this.mongod = new MongodbMemoryServer.default({
-      binary: {
-        version: '3.2.21',
-      },
-    });
+    this.mongod = new MongodbMemoryServer.default();
   }
 
   async setup() {

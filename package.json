@@ -1,6 +1,6 @@
 {
   "name": "arroyo-erp-models",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Models for arroyo erp",
   "main": "index.js",
   "scripts": {
@@ -31,9 +31,6 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@soker90"
-  },
-  "np": {
-    "yarn": false
   },
   "dependencies": {
     "bcrypt": "^4.0.1",
