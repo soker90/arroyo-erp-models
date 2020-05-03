@@ -1,5 +1,3 @@
-const Promise = require('bluebird');
-
 const {
         providerData,
         twoProviders,
@@ -9,10 +7,6 @@ const models = require('../..');
 const fakeDatabase = require('../test-db')(models.mongoose);
 
 const {ProviderModel} = models;
-
-const createProviders = async providers => {
-  Promise.all(providers.map(async provider => await ProviderModel.create(provider)));
-}
 
 describe('provider', () => {
   beforeAll(() => fakeDatabase.connect());
