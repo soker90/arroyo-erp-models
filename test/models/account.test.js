@@ -4,7 +4,7 @@ const {compare} = require('bcrypt');
 const {
         createOneAccount,
         createTwoAccount,
-      } = require('../account-data');
+      } = require('../mocks/account');
 const models = require('../..');
 
 const fakeDatabase = require('../test-db')(models.mongoose);

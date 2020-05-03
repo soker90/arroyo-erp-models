@@ -1,9 +1,8 @@
-const {ProviderModel} = require('../..');
+const {ProviderModel} = require('../../../models');
 
 async function changeProviderPreSave(next) {
   if (!this.isModified('provider')) {
-    next()
-    return
+    return next();
   }
 
   const {name} = await ProviderModel.findOne({_id: this.provider});

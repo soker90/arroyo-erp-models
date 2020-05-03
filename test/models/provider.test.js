@@ -1,7 +1,7 @@
 const {
         providerData,
         twoProviders,
-      } = require('../provider-data');
+      } = require('../mocks/provider');
 const models = require('../..');
 
 const fakeDatabase = require('../test-db')(models.mongoose);
@@ -26,6 +26,7 @@ describe('provider', () => {
     test('It should contain all the properties specified in the model', async () => {
       const document = await ProviderModel.findOne();
 
+      expect(document._id.toString()).toBe(providerData._id);
       expect(document.address).toBe(providerData.address);
       expect(document.email).toBe(providerData.email);
       expect(document.name).toBe(providerData.name);

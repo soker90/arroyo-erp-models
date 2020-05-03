@@ -7,5 +7,5 @@ const providersSchema = new Schema({
   email: String,
 });
 
-module.exports = model('Providers', providersSchema);
+module.exports = model('Provider', providersSchema, 'providers');
 
