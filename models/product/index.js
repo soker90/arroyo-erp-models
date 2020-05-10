@@ -8,6 +8,6 @@ const productSchema = new Schema({
   updateDate: Date,
   iva: Number,
   re: Number,
-});
+}, { versionKey: false });
 
 module.exports = model('Products', productSchema);
