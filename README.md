@@ -1,5 +1,8 @@
 # Arroyo Erp Models
 
+[![npm version](https://badge.fury.io/js/arroyo-erp-models.svg)](https://badge.fury.io/js/arroyo-erp-models)
+![](https://github.com/soker90/arroyo-erp-models/workflows/Node.js%20CI/badge.svg)
+
 This is a module of models for Arroyo ERP.
 
 ## Installation
