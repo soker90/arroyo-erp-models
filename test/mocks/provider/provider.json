@@ -3,5 +3,7 @@
   "name": "La abuela",
   "address": "Calle pepito, 9",
   "phone": "987456312",
-  "email": "info@info.es"
+  "email": "info@info.es",
+  "businessName": "La abuela S.A.",
+  "cif": "B23654578452"
 }

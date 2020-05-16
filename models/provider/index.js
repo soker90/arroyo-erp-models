@@ -5,6 +5,8 @@ const providersSchema = new Schema({
   address: String,
   phone: String,
   email: String,
+  businessName: String,
+  cif: String,
 }, { versionKey: false });
 
 module.exports = model('Provider', providersSchema, 'providers');

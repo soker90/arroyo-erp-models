@@ -31,6 +31,8 @@ describe('provider', () => {
       expect(document.email).toBe(providerData.email);
       expect(document.name).toBe(providerData.name);
       expect(document.phone).toBe(providerData.phone);
+      expect(document.businessName).toBe(providerData.businessName);
+      expect(document.cif).toBe(providerData.cif);
     });
   });
 
@@ -54,11 +56,15 @@ describe('provider', () => {
       expect(documentList[0].email).toBe(twoProviders.providers[0].email);
       expect(documentList[0].name).toBe(twoProviders.providers[0].name);
       expect(documentList[0].phone).toBe(twoProviders.providers[0].phone);
+      expect(documentList[0].businessName).toBe(twoProviders.providers[0].businessName);
+      expect(documentList[0].cif).toBe(twoProviders.providers[0].cif);
 
       expect(documentList[1].address).toBe(twoProviders.providers[1].address);
       expect(documentList[1].email).toBe(twoProviders.providers[1].email);
       expect(documentList[1].name).toBe(twoProviders.providers[1].name);
       expect(documentList[1].phone).toBe(twoProviders.providers[1].phone);
+      expect(documentList[1].businessName).toBe(twoProviders.providers[1].businessName);
+      expect(documentList[1].cif).toBe(twoProviders.providers[1].cif);
     });
   });
 
