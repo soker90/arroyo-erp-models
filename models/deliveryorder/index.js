@@ -2,7 +2,7 @@ const {Schema, model} = require('mongoose');
 const calcFieldsPreSave = require('./hooks/calc-fields-pre-save');
 
 const deliveryOrderSchema = new Schema({
-  date: Date,
+  date: Number,
   provider: String,
   products: [],
   size: Number,
