@@ -2,12 +2,12 @@
   "orders": [
     {
       "products" : [],
-      "date" : "2020-07-03T22:00:00.000Z",
+      "date" : 1589746695322,
       "provider" : "5e430c9b7d2d2ded823b153b"
     },
     {
       "products" : [],
-      "date" : "2020-06-03T22:00:00.000Z",
+      "date" : 1589746711208,
       "provider" : "5e430c9b7d2d2ded823b253b"
     }
   ]
