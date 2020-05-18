@@ -4,8 +4,7 @@ const productSchema = new Schema({
   name: String,
   code: String,
   provider: String,
-  amount: Number,
-  updateDate: Date,
+  fee: Number,
   iva: Number,
   re: Number,
 }, { versionKey: false });

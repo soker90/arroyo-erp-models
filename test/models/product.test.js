@@ -29,7 +29,7 @@ describe('product', () => {
       expect(document.code).toBe(productData.code);
       expect(document.name).toBe(productData.name);
       expect(document.provider).toBe(productData.provider);
-      expect(document.amount).toBe(productData.amount);
+      expect(document.fee).toBe(productData.fee);
       expect(document.iva).toBe(productData.iva);
       expect(document.re).toBe(productData.re);
     });
@@ -54,14 +54,14 @@ describe('product', () => {
       expect(documentList[0].code).toBe(twoProducts.products[0].code);
       expect(documentList[0].name).toBe(twoProducts.products[0].name);
       expect(documentList[0].provider).toBe(twoProducts.products[0].provider);
-      expect(documentList[0].amount).toBe(twoProducts.products[0].amount);
+      expect(documentList[0].fee).toBe(twoProducts.products[0].fee);
       expect(documentList[0].iva).toBe(twoProducts.products[0].iva);
       expect(documentList[0].re).toBe(twoProducts.products[0].re);
 
       expect(documentList[1].code).toBe(twoProducts.products[1].code);
       expect(documentList[1].name).toBe(twoProducts.products[1].name);
       expect(documentList[1].provider).toBe(twoProducts.products[1].provider);
-      expect(documentList[1].amount).toBe(twoProducts.products[1].amount);
+      expect(documentList[1].fee).toBe(twoProducts.products[1].fee);
       expect(documentList[1].iva).toBe(twoProducts.products[1].iva);
       expect(documentList[1].re).toBe(twoProducts.products[1].re);
     });
