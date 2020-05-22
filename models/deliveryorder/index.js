@@ -4,9 +4,14 @@ const calcFieldsPreSave = require('./hooks/calc-fields-pre-save');
 const deliveryOrderSchema = new Schema({
   date: Number,
   provider: String,
+  nameProvider: String,
   products: [],
   size: Number,
   total: Number,
+  iva: Number,
+  rate: Number,
+  re: Number,
+  selectedProducts: [],
 });
 
 deliveryOrderSchema.pre('save', calcFieldsPreSave);

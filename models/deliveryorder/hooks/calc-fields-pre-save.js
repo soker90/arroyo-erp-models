@@ -1,3 +1,4 @@
+const ProviderModel = require('../../provider');
 async function calcFieldsPreSave(next) {
   if (!this.products) this.products = [];
 
@@ -14,9 +15,10 @@ async function calcFieldsPreSave(next) {
     if (re) this.re += re;
     if (total) this.total += total;
     this.selectedProducts.push(product);
-  })
+  });
 
   const {name} = await ProviderModel.findOne({_id: this.provider});
+
   if (name) {
     this.nameProvider = name;
   } else {
