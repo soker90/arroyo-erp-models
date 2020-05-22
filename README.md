@@ -22,5 +22,6 @@ This is a module of models for Arroyo ERP.
   models.AccountModel // Expose a Account model with its statics & methods
   models.ProductService // Expose a Product model with its statics & methods
   models.ProviderService // Expose a Provider model with its statics & methods
+  models.DeliveryOrderModel // Expose a Delivery Order model with its statics & methods
 ```
 
