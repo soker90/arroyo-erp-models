@@ -11,7 +11,6 @@ const deliveryOrderSchema = new Schema({
   iva: Number,
   rate: Number,
   re: Number,
-  selectedProducts: [],
 });
 
 deliveryOrderSchema.pre('save', calcFieldsPreSave);

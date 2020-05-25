@@ -4,13 +4,11 @@ async function calcFieldsPreSave(next) {
 
   this.size = this.products.length;
   this.iva = this.re = this.total = 0;
-  this.selectedProducts = [];
 
   this.products.forEach(({product, iva, re, total}) => {
     if (iva) this.iva += iva;
     if (re) this.re += re;
     if (total) this.total += total;
-    this.selectedProducts.push(product);
   });
 
   const {name} = await ProviderModel.findOne({_id: this.provider});
