@@ -12,8 +12,7 @@
   },
   "lint-staged": {
     "*.js": [
-      "lint --fix",
-      "test"
+      "lint --fix"
     ]
   },
   "files": [
