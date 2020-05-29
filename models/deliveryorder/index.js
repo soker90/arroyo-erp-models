@@ -1,4 +1,4 @@
-const {Schema, model} = require('mongoose');
+const { Schema, model } = require('mongoose');
 const calcFieldsPreSave = require('./hooks/calc-fields-pre-save');
 
 const deliveryOrderSchema = new Schema({
@@ -11,9 +11,11 @@ const deliveryOrderSchema = new Schema({
   iva: Number,
   rate: Number,
   re: Number,
+  amount: Number,
+  taxBase: Number,
 });
 
-deliveryOrderSchema.pre('save', calcFieldsPreSave);
+// deliveryOrderSchema.pre('save', calcFieldsPreSave);
 
 module.exports = model('DeliveryOrder', deliveryOrderSchema);
 

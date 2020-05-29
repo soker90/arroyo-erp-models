@@ -4,9 +4,10 @@ const productSchema = new Schema({
   name: String,
   code: String,
   provider: String,
-  fee: Number,
+  rate: Number,
   iva: Number,
   re: Number,
+  amount: Number,
 }, { versionKey: false });
 
 module.exports = model('Products', productSchema);
