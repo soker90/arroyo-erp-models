@@ -6,7 +6,8 @@
       "provider" : "5e430c9b7d2d2ded823b153b",
       "rate" : 7,
       "iva" : 11.2,
-      "re" : 2.2
+      "re" : 2.2,
+      "historicPrice": 4.2
     },
     {
       "code" : "2222",
@@ -14,7 +15,8 @@
       "provider" : "5e430c9b7d2d2ded823b153b",
       "rate" : 8,
       "iva" : 1.2,
-      "re" : 2.63
+      "re" : 2.63,
+      "historicPrice": 3.2
     }
   ]
 }

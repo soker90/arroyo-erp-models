@@ -1,14 +1,12 @@
 const bcrypt = require('bcrypt');
 
 function encryptPasswordPreSave(next) {
-  if (!this.isModified('password')) {
-    return next();
-  }
-
   bcrypt.genSalt(10, (err, salt) => {
+    /* istanbul ignore next */
     if (err) return next(err);
-    bcrypt.hash(this.password, salt, (err, hash) => {
-      if (err) return next(err);
+    bcrypt.hash(this.password, salt, (e, hash) => {
+      /* istanbul ignore next */
+      if (e) return next(e);
       this.password = hash;
       next();
     })
