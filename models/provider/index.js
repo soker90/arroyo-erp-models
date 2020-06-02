@@ -7,6 +7,7 @@ const providersSchema = new Schema({
   email: String,
   businessName: String,
   cif: String,
+  hasRate: Boolean,
 }, { versionKey: false });
 
 module.exports = model('Provider', providersSchema, 'providers');
