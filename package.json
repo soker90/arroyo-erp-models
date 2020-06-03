@@ -1,6 +1,6 @@
 {
   "name": "arroyo-erp-models",
-  "version": "0.3.7",
+  "version": "0.4.0",
   "description": "Models for arroyo erp",
   "main": "index.js",
   "scripts": {

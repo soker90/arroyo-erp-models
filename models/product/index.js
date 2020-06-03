@@ -7,7 +7,6 @@ const productSchema = new Schema({
   rate: Number,
   iva: Number,
   re: Number,
-  historicPrice: Number,
 }, { versionKey: false });
 
 module.exports = model('Products', productSchema);
