@@ -1,5 +1,6 @@
 # Changelog
 
+
 ## [0.4.0]
   - Added price model
   - Remove historic price from products
