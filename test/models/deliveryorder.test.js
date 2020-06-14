@@ -7,7 +7,7 @@ const models = require('../..');
 
 const fakeDatabase = require('../test-db')(models.mongoose);
 
-const {DeliveryOrderModel, ProviderModel} = models;
+const {DeliveryOrderModel} = models;
 
 /**
  * Test collection
@@ -25,8 +25,9 @@ const _checkCreated = (document, mock) => {
   expect(document.iva).toBe(mock.iva);
   expect(document.rate).toBe(mock.rate);
   expect(document.re).toBe(mock.re);
-  expect(document.historicPrice).toBe(mock.historicPrice);
   expect(document.taxBase).toBe(mock.taxBase);
+  expect(document.nOrder).toBe(mock.nOrder);
+  expect(document.nInvoice).toBe(mock.nInvoice);
 }
 
 describe('deliveryorder', () => {

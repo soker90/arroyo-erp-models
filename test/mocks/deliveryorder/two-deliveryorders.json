@@ -9,8 +9,9 @@
       "iva": 5.5000001,
       "rate": 2,
       "re": 1.36,
-      "historicPrice": 3.5,
       "taxBase": 6.2,
+      "nOrder": 2,
+      "nInvoice": 13,
       "products": [
         {
           "code": "645",
@@ -50,8 +51,9 @@
       "iva": 538.5600000000001,
       "rate": 4,
       "re": 18.36,
-      "historicPrice": 0,
       "taxBase": 61.199999999999996,
+      "nOrder": 22,
+      "nInvoice": 4,
       "products": [
         {
           "code": "666645",

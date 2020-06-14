@@ -10,7 +10,8 @@ const deliveryOrderSchema = new Schema({
   iva: Number,
   rate: Number,
   re: Number,
-  historicPrice: Number,
+  nOrder: Number,
+  nInvoice: Number,
   taxBase: Number,
 });
 
