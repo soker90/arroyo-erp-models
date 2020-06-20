@@ -3,13 +3,17 @@ const incrementId = require('./hooks/increment-id-pre-save');
 
 const invoiceSchema = new Schema({
   deliveryOrders: [],
-  date: Number,
+  dateInvoice: Number,
+  dateRegister: Number,
   total: Number,
   iva: Number,
   rate: Number,
   re: Number,
   nOrder: Number,
   nInvoice: Number,
+  concept: String,
+  taxBase: Number,
+  reRental: Number, //Alquiler
 });
 
 invoiceSchema.pre('save', incrementId);

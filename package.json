@@ -1,6 +1,6 @@
 {
   "name": "arroyo-erp-models",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Models for arroyo erp",
   "main": "index.js",
   "scripts": {
@@ -37,7 +37,7 @@
     "mongoose-connect": "0.0.3"
   },
   "devDependencies": {
-    "eslint": "^7.1.0",
+    "eslint": "^7.3.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jest": "^23.13.2",

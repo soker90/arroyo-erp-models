@@ -17,12 +17,16 @@ const {InvoiceModel} = models;
  */
 const _checkCreated = (document, mock) => {
   expect(document.deliveryOrders.toString()).toBe(mock.deliveryOrders.toString());
-  expect(document.date).toBe(mock.date);
+  expect(document.dateInvoice).toBe(mock.dateInvoice);
+  expect(document.dateRegister).toBe(mock.dateRegister);
   expect(document.total).toBe(mock.total);
   expect(document.iva).toBe(mock.iva);
   expect(document.rate).toBe(mock.rate);
   expect(document.re).toBe(mock.re);
   expect(document.nInvoice).toBe(mock.nInvoice);
+  expect(document.taxBase).toBe(mock.taxBase);
+  expect(document.concept).toBe(mock.concept);
+  expect(document.reRental).toBe(mock.reRental);
 }
 
 describe('invoce', () => {
