@@ -8,7 +8,7 @@
   "rate": 4,
   "re": 18.36,
   "taxBase": 61.199999999999996,
-  "nInvoice": 3,
+  "nInvoice": "3",
   "concept": "Alquiler",
   "reRental": 12.5
 }
