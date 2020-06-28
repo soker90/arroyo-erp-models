@@ -14,6 +14,8 @@ const invoiceSchema = new Schema({
   concept: String,
   taxBase: Number,
   reRental: Number, //Alquiler
+  provider: String,
+  nameProvider: String,
 });
 
 invoiceSchema.pre("save", incrementId);
