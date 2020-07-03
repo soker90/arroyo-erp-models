@@ -4,6 +4,7 @@ const ProductModel = require('./product');
 const DeliveryOrderModel = require('./deliveryorder');
 const PriceModel = require('./price');
 const InvoiceModel = require('./invoice');
+const ClientModel = require('./client');
 
 module.exports = {
   AccountModel,
@@ -12,4 +13,5 @@ module.exports = {
   DeliveryOrderModel,
   PriceModel,
   InvoiceModel,
+  ClientModel,
 };
