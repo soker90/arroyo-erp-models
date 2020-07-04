@@ -18,5 +18,5 @@ const invoiceSchema = new Schema({
   nameProvider: String,
 });
 
-invoiceSchema.pre("save", incrementId);
+// invoiceSchema.pre("save", incrementId);
 module.exports = model("Invoice", invoiceSchema);

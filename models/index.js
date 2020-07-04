@@ -1,3 +1,4 @@
+const AutoIncrement = require('./auto-increment');
 const AccountModel = require('./account');
 const ProviderModel = require('./provider');
 const ProductModel = require('./product');
@@ -7,11 +8,12 @@ const InvoiceModel = require('./invoice');
 const ClientModel = require('./client');
 
 module.exports = {
+  AutoIncrement,
   AccountModel,
   ProviderModel,
   ProductModel,
   DeliveryOrderModel,
   PriceModel,
   InvoiceModel,
-  ClientModel,
+  ClientModel
 };

@@ -52,10 +52,6 @@ describe('invoce', () => {
       _checkCreated(document, invoiceData);
     });
 
-    test('Se ha creado el número de orden correctamente', async () => {
-      const document = await InvoiceModel.findOne();
-      expect(document.nOrder).toBe(1);
-    })
   });
 
   describe('Create multiple accounts', () => {
@@ -77,12 +73,7 @@ describe('invoce', () => {
       _checkCreated(documentList[0], twoInvoicesData.invoices[0]);
       _checkCreated(documentList[1], twoInvoicesData.invoices[1]);
     });
-
-    test('Se ha creado el número de orden correctamente', async () => {
-      const documentList = await InvoiceModel.find({});
-      expect(documentList[0].nOrder).toBe(1);
-      expect(documentList[1].nOrder).toBe(2);
-    })
+    
   });
 
 });
