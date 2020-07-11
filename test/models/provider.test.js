@@ -17,6 +17,9 @@ const { ProviderModel } = models;
 const _checkCreated = (document, mock) => {
   expect(document._id.toString()).toBe(mock._id);
   expect(document.address).toBe(mock.address);
+  expect(document.city).toBe(mock.city);
+  expect(document.postalCode).toBe(mock.postalCode);
+  expect(document.province).toBe(mock.province);
   expect(document.email).toBe(mock.email);
   expect(document.name).toBe(mock.name);
   expect(document.phone).toBe(mock.phone);
