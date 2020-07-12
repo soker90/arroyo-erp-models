@@ -1,5 +1,4 @@
 const { Schema, model } = require("mongoose");
-const incrementId = require("./hooks/increment-id-pre-save");
 
 const invoiceSchema = new Schema({
   deliveryOrders: [],
@@ -18,5 +17,4 @@ const invoiceSchema = new Schema({
   nameProvider: String,
 });
 
-// invoiceSchema.pre("save", incrementId);
 module.exports = model("Invoice", invoiceSchema);

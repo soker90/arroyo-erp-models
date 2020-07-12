@@ -4,6 +4,7 @@ const productSchema = new Schema({
   name: String,
   code: String,
   provider: String,
+  nameProvider: String,
   rate: Number,
   iva: Number,
   re: Number,
