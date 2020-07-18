@@ -2,7 +2,7 @@ const {Schema, model} = require('mongoose');
 const sumTrimesters = require('./hooks/sum-trimesters-pre-save');
 
 const billingSchema = new Schema({
-  year: String,
+  year: Number,
   provider: String,
   trimesters: [],
   annual: Number,
