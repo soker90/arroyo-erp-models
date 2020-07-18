@@ -1,19 +1,21 @@
-const AutoIncrement = require('./auto-increment');
 const AccountModel = require('./account');
-const ProviderModel = require('./provider');
-const ProductModel = require('./product');
-const DeliveryOrderModel = require('./deliveryorder');
-const PriceModel = require('./price');
-const InvoiceModel = require('./invoice');
+const AutoIncrement = require('./auto-increment');
+const BillingModel = require('./billing');
 const ClientModel = require('./client');
+const DeliveryOrderModel = require('./deliveryorder');
+const InvoiceModel = require('./invoice');
+const PriceModel = require('./price');
+const ProductModel = require('./product');
+const ProviderModel = require('./provider');
 
 module.exports = {
-  AutoIncrement,
   AccountModel,
-  ProviderModel,
-  ProductModel,
+  AutoIncrement,
+  BillingModel,
+  ClientModel,
   DeliveryOrderModel,
-  PriceModel,
   InvoiceModel,
-  ClientModel
+  PriceModel,
+  ProductModel,
+  ProviderModel
 };

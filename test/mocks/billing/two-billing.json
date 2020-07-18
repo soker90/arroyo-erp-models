@@ -1,0 +1,26 @@
+{
+  "billing": [
+    {
+      "year": "2020",
+      "provider": "5e430c9b7d2d2ded823b153b",
+      "trimesters": [
+        1000,
+        2000,
+        3000,
+        500
+      ],
+      "annual": 6500
+    },
+    {
+      "year": "2021",
+      "provider": "5ed536ff6dc26539c8031181",
+      "trimesters": [
+        6000,
+        2000,
+        1000,
+        1500
+      ],
+      "annual": 10500
+    }
+  ]
+}
