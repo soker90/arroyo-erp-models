@@ -23,6 +23,8 @@ const _checkCreated = (document, mock) => {
   expect(document.rate).toBe(mock.rate);
   expect(document.re).toBe(mock.re);
   expect(document.taxBase).toBe(mock.taxBase);
+  expect(document.invoice).toBe(mock.invoice);
+  expect(document.nOrder).toBe(mock.nOrder);
 };
 
 describe("deliveryorder", () => {

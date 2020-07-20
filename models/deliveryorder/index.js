@@ -1,4 +1,4 @@
-const { Schema, model } = require("mongoose");
+const { Schema, model } = require('mongoose');
 
 const deliveryOrderSchema = new Schema({
   date: Number, // Fecha del albarán
@@ -12,6 +12,7 @@ const deliveryOrderSchema = new Schema({
   re: Number, // Recargo total
   invoice: String, // Id de la factura
   taxBase: Number, // Base imponible total
+  nOrder: Number, // Numero de orden de la factura
 });
 
-module.exports = model("DeliveryOrder", deliveryOrderSchema);
+module.exports = model('DeliveryOrder', deliveryOrderSchema);

@@ -10,6 +10,8 @@
       "rate": 2,
       "re": 1.36,
       "taxBase": 6.2,
+      "invoice": "5d16110ed10b76e2856f078",
+      "nOrder": 12,
       "products": [
         {
           "code": "645",
@@ -38,8 +40,7 @@
           "total": 16.4568
         }
       ]
-    }
-  ,
+    },
     {
       "provider": "5e430c9b7d2d2ded823b153b",
       "nameProvider": "La abuela",
@@ -50,6 +51,8 @@
       "rate": 4,
       "re": 18.36,
       "taxBase": 61.199999999999996,
+      "invoice": "5ed16110ed10b76e2856f078",
+      "nOrder": 33,
       "products": [
         {
           "code": "666645",
@@ -79,6 +82,5 @@
         }
       ]
     }
-
   ]
 }

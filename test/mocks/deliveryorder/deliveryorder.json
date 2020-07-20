@@ -9,6 +9,8 @@
   "rate": 4,
   "re": 18.36,
   "taxBase": 61.199999999999996,
+  "invoice": "5e430c9b7d2d2ded823b153b",
+  "nOrder": 2,
   "products": [
     {
       "code": "666645",
