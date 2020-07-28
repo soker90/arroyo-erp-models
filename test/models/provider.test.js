@@ -25,7 +25,6 @@ const _checkCreated = (document, mock) => {
   expect(document.phone).toBe(mock.phone);
   expect(document.businessName).toBe(mock.businessName);
   expect(document.cif).toBe(mock.cif);
-  expect(document.hasRate).toBe(mock.hasRate);
 };
 
 

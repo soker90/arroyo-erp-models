@@ -14,6 +14,10 @@ const invoiceSchema = new Schema({
   reRental: Number, //Alquiler
   provider: String,
   nameProvider: String,
+  payment: {
+    datePayment: Number,
+    type: String
+  }
 });
 
 module.exports = model("Invoice", invoiceSchema);

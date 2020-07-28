@@ -1,4 +1,4 @@
-const {Schema, model} = require('mongoose');
+const { Schema, model } = require('mongoose');
 
 const paymentSchema = new Schema({
   provider: String,
@@ -7,6 +7,7 @@ const paymentSchema = new Schema({
   invoices: [String],
   nOrder: String,
   paymentDate: Number,
+  merged: Boolean,
 }, { versionKey: false });
 
 module.exports = model('Payment', paymentSchema);
