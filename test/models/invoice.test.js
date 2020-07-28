@@ -21,7 +21,6 @@ const _checkCreated = (document, mock) => {
   expect(document.dateRegister).toBe(mock.dateRegister);
   expect(document.total).toBe(mock.total);
   expect(document.iva).toBe(mock.iva);
-  expect(document.rate).toBe(mock.rate);
   expect(document.re).toBe(mock.re);
   expect(document.nInvoice).toBe(mock.nInvoice);
   expect(document.taxBase).toBe(mock.taxBase);
@@ -73,7 +72,7 @@ describe('invoce', () => {
       _checkCreated(documentList[0], twoInvoicesData.invoices[0]);
       _checkCreated(documentList[1], twoInvoicesData.invoices[1]);
     });
-    
+
   });
 
 });

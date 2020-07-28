@@ -6,7 +6,6 @@ const invoiceSchema = new Schema({
   dateRegister: Number,
   total: Number,
   iva: Number,
-  rate: Number,
   re: Number,
   nOrder: Number,
   nInvoice: String,
