@@ -26,6 +26,8 @@ const _checkCreated = (document, mock) => {
     .toBe(mock.paymentDate);
   expect(document.merged)
     .toBe(mock.merged);
+  expect(document.type).toBe(mock.type);
+  expect(document.amount).toBe(mock.amount);
 };
 
 describe('payment model', () => {

@@ -6,5 +6,7 @@
     "5f1872ca869c550017e9adf8"
   ],
   "nOrder": "3, 34",
-  "paymentDate": 1591213980000
+  "paymentDate": 1591213980000,
+  "amount": 23,
+  "type": "Efectivo"
 }

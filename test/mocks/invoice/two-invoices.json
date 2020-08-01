@@ -13,7 +13,11 @@
       "taxBase": 55.6,
       "nInvoice": "1",
       "concept": "Alquiler",
-      "reRental": 12.5
+      "reRental": 12.5,
+      "payment": {
+        "type": "Talón",
+        "paymentDate": 1590704800000
+      }
     },
     {
       "_id": "5ed16182ed10b76e2856f079",
@@ -28,7 +32,11 @@
       "taxBase": 61.199999999999996,
       "nInvoice": "3",
       "concept": "Compras",
-      "reRental": 1.3
+      "reRental": 1.3,
+      "payment": {
+        "type": "Efectivo",
+        "paymentDate": 1590706800000
+      }
     }
   ]
 }

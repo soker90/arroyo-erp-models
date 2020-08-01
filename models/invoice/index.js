@@ -15,8 +15,8 @@ const invoiceSchema = new Schema({
   provider: String,
   nameProvider: String,
   payment: {
-    paymentDate: Number,
-    type: String,
+    paymentDate: { type: Number },
+    type: { type: String },
   },
 });
 

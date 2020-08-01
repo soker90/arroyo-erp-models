@@ -8,6 +8,7 @@ const paymentSchema = new Schema({
   nOrder: String,
   paymentDate: Number,
   merged: Boolean,
+  amount: Number
 }, { versionKey: false });
 
 module.exports = model('Payment', paymentSchema);

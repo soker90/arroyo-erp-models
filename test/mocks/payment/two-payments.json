@@ -8,7 +8,9 @@
         "5f1872ca869c550017e9adf8"
       ],
       "nOrder": "3, 34",
-      "paymentDate": 1591213980000
+      "paymentDate": 1591213980000,
+      "amount": 23,
+      "type": "Efectivo"
     },
     {
       "provider": "5f187222869c550017e9adf5",
@@ -18,7 +20,9 @@
       ],
       "nOrder": "23",
       "paymentDate": 1594919520000,
-      "merged": true
+      "merged": true,
+      "amount": 21,
+      "type": "Talón"
     }
   ]
 }
