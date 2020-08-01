@@ -1,4 +1,4 @@
-const { Schema, model } = require("mongoose");
+const { Schema, model } = require('mongoose');
 
 const invoiceSchema = new Schema({
   deliveryOrders: [],
@@ -15,9 +15,9 @@ const invoiceSchema = new Schema({
   provider: String,
   nameProvider: String,
   payment: {
-    datePayment: Number,
-    type: String
-  }
+    paymentDate: Number,
+    type: String,
+  },
 });
 
-module.exports = model("Invoice", invoiceSchema);
+module.exports = model('Invoice', invoiceSchema);
