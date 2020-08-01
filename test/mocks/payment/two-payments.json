@@ -22,7 +22,8 @@
       "paymentDate": 1594919520000,
       "merged": true,
       "amount": 21,
-      "type": "Talón"
+      "type": "Talón",
+      "numCheque": "8766B"
     }
   ]
 }
