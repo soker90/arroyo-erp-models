@@ -30,7 +30,7 @@
     "url": "git+https://github.com/soker90/arroyo-erp-models.git"
   },
  "publishConfig": {
-    "registry":"https://npm.pkg.github.com/soker90"
+    "registry":"https://npm.pkg.github.com/"
  },
   "dependencies": {
     "bcrypt": "^5.0.0",
