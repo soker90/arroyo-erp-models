@@ -28,6 +28,8 @@ const _checkCreated = (document, mock) => {
   expect(document.reRental).toBe(mock.reRental);
   expect(document.payment.type).toBe(mock.payment.type);
   expect(document.payment.paymentDate).toBe(mock.payment.paymentDate);
+  expect(document.payment.numCheque).toBe(mock.payment.numCheque);
+  expect(document.payment.paid).toBe(mock.payment.paid);
 }
 
 describe('invoce', () => {

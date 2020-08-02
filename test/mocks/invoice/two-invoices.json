@@ -16,7 +16,8 @@
       "reRental": 12.5,
       "payment": {
         "type": "Talón",
-        "paymentDate": 1590704800000
+        "paymentDate": 1590704800000,
+        "numCheque": "67757"
       }
     },
     {
@@ -35,7 +36,8 @@
       "reRental": 1.3,
       "payment": {
         "type": "Efectivo",
-        "paymentDate": 1590706800000
+        "paymentDate": 1590706800000,
+        "paid": true
       }
     }
   ]
