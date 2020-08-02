@@ -23,7 +23,8 @@
       "merged": true,
       "amount": 21,
       "type": "Talón",
-      "numCheque": "8766B"
+      "numCheque": "8766B",
+      "paid": true
     }
   ]
 }

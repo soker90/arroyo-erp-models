@@ -10,6 +10,7 @@ const paymentSchema = new Schema({
   merged: Boolean,
   amount: Number,
   numCheque: String,
+  paid: Boolean,
 }, { versionKey: false });
 
 module.exports = model('Payment', paymentSchema);

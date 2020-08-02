@@ -29,6 +29,7 @@ const _checkCreated = (document, mock) => {
   expect(document.type).toBe(mock.type);
   expect(document.amount).toBe(mock.amount);
   expect(document.numCheque).toBe(mock.numCheque);
+  expect(document.paid).toBe(mock.paid);
 };
 
 describe('payment model', () => {

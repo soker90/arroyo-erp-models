@@ -17,6 +17,7 @@ const invoiceSchema = new Schema({
   payment: {
     paymentDate: { type: Number },
     type: { type: String },
+    numCheque: { type: String },
   },
 });
 
