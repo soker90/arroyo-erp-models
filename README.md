@@ -3,6 +3,11 @@
 [![npm version](https://badge.fury.io/js/arroyo-erp-models.svg)](https://badge.fury.io/js/arroyo-erp-models)
 ![](https://github.com/soker90/arroyo-erp-models/workflows/Node.js%20CI/badge.svg)
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=soker90/arroyo-erp-models)](https://dependabot.com)
+[![dependencies Status](https://david-dm.org/soker90/arroyo-erp-models/status.svg)](https://david-dm.org/soker90/arroyo-erp-models)
+[![devDependencies Status](https://david-dm.org/soker90/arroyo-erp-models/dev-status.svg)](https://david-dm.org/soker90/arroyo-erp-models?type=dev)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=soker90_arroyo-erp-models&metric=alert_status)](https://sonarcloud.io/dashboard?id=soker90_arroyo-erp-models)
+![Code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
+[![codecov](https://codecov.io/gh/soker90/arroyo-erp-models/branch/master/graph/badge.svg)](https://codecov.io/gh/soker90/arroyo-erp-models)
 
 This is a module of models for Arroyo ERP.
 
