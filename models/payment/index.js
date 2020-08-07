@@ -11,6 +11,7 @@ const paymentSchema = new Schema({
   amount: Number,
   numCheque: String,
   paid: Boolean,
+  payments: [String],
 }, { versionKey: false });
 
 module.exports = model('Payment', paymentSchema);
