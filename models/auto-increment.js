@@ -5,6 +5,7 @@ const AutoIncrementSchema = mongoose.Schema({
   name: { type: String, required: true },
 });
 
+/* istanbul ignore next */
 /**
  * Create a new document initializing the value of seq to 1 or
  * increment that value if the document exists
