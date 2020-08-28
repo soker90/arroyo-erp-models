@@ -26,11 +26,18 @@ const _checkCreated = (document, mock) => {
     .toBe(mock.paymentDate);
   expect(document.merged)
     .toBe(mock.merged);
-  expect(document.type).toBe(mock.type);
-  expect(document.amount).toBe(mock.amount);
-  expect(document.numCheque).toBe(mock.numCheque);
-  expect(document.paid).toBe(mock.paid);
-  expect(document.payments?.toString() || undefined).toBe(mock.payments?.toString());
+  expect(document.type)
+    .toBe(mock.type);
+  expect(document.amount)
+    .toBe(mock.amount);
+  expect(document.numCheque)
+    .toBe(mock.numCheque);
+  expect(document.paid)
+    .toBe(mock.paid);
+  expect(document.payments?.toString() || undefined)
+    .toBe(mock.payments?.toString());
+  expect(document.invoiceDate)
+    .toBe(mock.invoiceDate);
 };
 
 describe('payment model', () => {

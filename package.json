@@ -1,6 +1,6 @@
 {
   "name": "arroyo-erp-models",
-  "version": "0.8.3",
+  "version": "0.8.4",
   "description": "Models for arroyo erp",
   "main": "index.js",
   "scripts": {
@@ -32,8 +32,8 @@
   "dependencies": {
     "bcrypt": "^5.0.0",
     "bluebird": "^3.7.2",
-    "mongodb-memory-server": "^6.6.1",
-    "mongoose": "^5.9.27",
+    "mongodb-memory-server": "^6.6.6",
+    "mongoose": "^5.10.2",
     "mongoose-connect": "0.0.3"
   },
   "devDependencies": {

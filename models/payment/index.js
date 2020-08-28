@@ -12,6 +12,7 @@ const paymentSchema = new Schema({
   numCheque: String,
   paid: Boolean,
   payments: [String],
+  invoiceDate: Number,
 }, { versionKey: false });
 
 module.exports = model('Payment', paymentSchema);
