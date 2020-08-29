@@ -1,6 +1,7 @@
 const {
   billingData,
   twoBilling,
+  billingUpdate,
 } = require('../mocks/billing');
 const models = require('../..');
 
@@ -21,6 +22,17 @@ const _checkCreated = (document, mock) => {
     .toBe(mock.provider);
   expect(document.trimesters.toString())
     .toEqual(mock.trimesters.toString());
+};
+
+const _checkUpdate = (document, mock) => {
+  expect(document.year)
+    .toBe(mock.year);
+  expect(document.provider)
+    .toBe(mock.provider);
+  expect(document.trimesters.toString())
+    .toEqual(mock.trimesters.toString());
+  expect(document.annual)
+    .toEqual(mock.annual);
 };
 
 /**
@@ -77,6 +89,46 @@ describe('billing', () => {
 
       _checkCreated(documentList[0], twoBilling.billing[0]);
       _checkCreated(documentList[1], twoBilling.billing[1]);
+    });
+  });
+
+  describe('Actualiza dos veces el mismo billing', () => {
+    beforeAll(async () => {
+      await BillingModel.updateOne(
+        billingUpdate.successUpdate.filter,
+        billingUpdate.successUpdate.update,
+        { upsert: true },
+      );
+
+      await BillingModel.updateOne(
+        billingUpdate.successUpdate.filter,
+        billingUpdate.successUpdate.update,
+        { upsert: true },
+      );
+
+      /* await BillingModel.updateOne(
+        billingUpdate.noInvoice.filter,
+        billingUpdate.noInvoice.update,
+        { upsert: true },
+      ); */
+    });
+
+    afterAll(() => fakeDatabase.clean());
+
+    test('It should contain 1 documents', async () => {
+      const counter = await BillingModel.countDocuments();
+      expect(counter)
+        .toBe(1);
+    });
+
+    test('Check billing updated', async () => {
+      const documentList = await BillingModel.find({});
+
+      _checkUpdate(documentList[0], {
+        ...billingUpdate.successUpdate.filter,
+        trimesters: [0, 0, 24, 0],
+        annual: 24,
+      });
     });
   });
 
