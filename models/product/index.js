@@ -1,4 +1,4 @@
-const {Schema, model} = require('mongoose');
+const { Schema, model } = require('mongoose');
 
 const productSchema = new Schema({
   name: String,
@@ -8,6 +8,7 @@ const productSchema = new Schema({
   rate: Number,
   iva: Number,
   re: Number,
+  profit: Number,
 }, { versionKey: false });
 
 module.exports = model('Products', productSchema);

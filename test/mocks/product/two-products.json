@@ -7,7 +7,8 @@
       "nameProvider": "Gallinas CB",
       "rate" : 7,
       "iva" : 11.2,
-      "re" : 2.2
+      "re" : 2.2,
+      "profit": 2.11
     },
     {
       "code" : "2222",
@@ -16,7 +17,8 @@
       "nameProvider": "Cerdo SL",
       "rate" : 8,
       "iva" : 1.2,
-      "re" : 2.63
+      "re" : 2.63,
+      "profit": 21.02
     }
   ]
 }

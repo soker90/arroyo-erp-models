@@ -1,12 +1,37 @@
 const {
-        productData,
-        twoProducts,
-      } = require('../mocks/product');
+  productData,
+  twoProducts,
+} = require('../mocks/product');
 const models = require('../..');
 
 const fakeDatabase = require('../test-db')(models.mongoose);
 
-const {ProductModel} = models;
+const { ProductModel } = models;
+
+/**
+ * Test collection
+ * @param {Object} document
+ * @param {Object} mock
+ * @private
+ */
+const _checkCreated = (document, mock) => {
+  expect(document.code)
+    .toBe(mock.code);
+  expect(document.name)
+    .toBe(mock.name);
+  expect(document.provider)
+    .toBe(mock.provider);
+  expect(document.nameProvider)
+    .toBe(mock.nameProvider);
+  expect(document.rate)
+    .toBe(mock.rate);
+  expect(document.iva)
+    .toBe(mock.iva);
+  expect(document.re)
+    .toBe(mock.re);
+  expect(document.profit)
+    .toBe(mock.profit);
+};
 
 describe('product', () => {
   beforeAll(() => fakeDatabase.connect());
@@ -20,19 +45,14 @@ describe('product', () => {
 
     test('It should contain 1 document', async () => {
       const counter = await ProductModel.countDocuments();
-      expect(counter).toBe(1);
+      expect(counter)
+        .toBe(1);
     });
 
     test('It should contain all the properties specified in the model', async () => {
       const document = await ProductModel.findOne();
 
-      expect(document.code).toBe(productData.code);
-      expect(document.name).toBe(productData.name);
-      expect(document.provider).toBe(productData.provider);
-      expect(document.nameProvider).toBe(productData.nameProvider);
-      expect(document.rate).toBe(productData.rate);
-      expect(document.iva).toBe(productData.iva);
-      expect(document.re).toBe(productData.re);
+      _checkCreated(document, productData);
     });
   });
 
@@ -46,27 +66,15 @@ describe('product', () => {
 
     test('It should contain 2 documents', async () => {
       const counter = await ProductModel.countDocuments();
-      expect(counter).toBe(2);
+      expect(counter)
+        .toBe(2);
     });
 
     test('Check accounts created', async () => {
       const documentList = await ProductModel.find({});
 
-      expect(documentList[0].code).toBe(twoProducts.products[0].code);
-      expect(documentList[0].name).toBe(twoProducts.products[0].name);
-      expect(documentList[0].provider).toBe(twoProducts.products[0].provider);
-      expect(documentList[0].nameProvider).toBe(twoProducts.products[0].nameProvider);
-      expect(documentList[0].rate).toBe(twoProducts.products[0].rate);
-      expect(documentList[0].iva).toBe(twoProducts.products[0].iva);
-      expect(documentList[0].re).toBe(twoProducts.products[0].re);
-
-      expect(documentList[1].code).toBe(twoProducts.products[1].code);
-      expect(documentList[1].name).toBe(twoProducts.products[1].name);
-      expect(documentList[1].provider).toBe(twoProducts.products[1].provider);
-      expect(documentList[1].nameProvider).toBe(twoProducts.products[1].nameProvider);
-      expect(documentList[1].rate).toBe(twoProducts.products[1].rate);
-      expect(documentList[1].iva).toBe(twoProducts.products[1].iva);
-      expect(documentList[1].re).toBe(twoProducts.products[1].re);
+      _checkCreated(documentList[0], twoProducts.products[0]);
+      _checkCreated(documentList[1], twoProducts.products[1]);
     });
   });
 

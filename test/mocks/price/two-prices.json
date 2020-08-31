@@ -3,12 +3,16 @@
     {
       "product": "5e430c9b7d2d2ded823b153b",
       "date": 1589407320000,
-      "price": 12.2
+      "price": 13.2,
+      "cost": 13.8,
+      "sale": 14.4
     },
     {
       "product": "5ed536ff6dc26539c8031181",
       "date": 1591213980000,
-      "price": 1.1
+      "price": 1.1,
+      "cost": 1.3,
+      "sale": 1.6
     }
   ]
 }
