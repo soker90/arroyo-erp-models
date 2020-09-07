@@ -20,6 +20,6 @@ const invoiceSchema = new Schema({
     numCheque: { type: String },
     paid: { type: Boolean },
   },
-});
+}, { versionKey: false });
 
 module.exports = model('Invoice', invoiceSchema);

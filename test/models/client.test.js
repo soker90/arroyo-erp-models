@@ -1,7 +1,7 @@
 const {
-        clientData,
-        twoClients,
-      } = require('../mocks/client');
+  clientData,
+  twoClients,
+} = require('../mocks/client');
 const models = require('../..');
 
 const fakeDatabase = require('../test-db')(models.mongoose);
@@ -15,15 +15,21 @@ const { ClientModel } = models;
  * @private
  */
 const _checkCreated = (document, mock) => {
-  expect(document._id.toString()).toBe(mock._id);
-  expect(document.address).toBe(mock.address);
-  expect(document.email).toBe(mock.email);
-  expect(document.name).toBe(mock.name);
-  expect(document.phone).toBe(mock.phone);
-  expect(document.businessName).toBe(mock.businessName);
-  expect(document.cif).toBe(mock.cif);
+  expect(document._id.toString())
+    .toBe(mock._id);
+  expect(document.address)
+    .toBe(mock.address);
+  expect(document.email)
+    .toBe(mock.email);
+  expect(document.name)
+    .toBe(mock.name);
+  expect(document.phone)
+    .toBe(mock.phone);
+  expect(document.businessName)
+    .toBe(mock.businessName);
+  expect(document.cif)
+    .toBe(mock.cif);
 };
-
 
 describe('client', () => {
   beforeAll(() => fakeDatabase.connect());
@@ -37,7 +43,8 @@ describe('client', () => {
 
     test('It should contain 1 document', async () => {
       const counter = await ClientModel.countDocuments();
-      expect(counter).toBe(1);
+      expect(counter)
+        .toBe(1);
     });
 
     test('It should contain all the properties specified in the model', async () => {
@@ -47,20 +54,21 @@ describe('client', () => {
     });
   });
 
-  describe('Create multiple accounts', () => {
+  describe('Create multiple clients', () => {
     beforeAll(async () => {
       await ClientModel.create(twoClients.clients[0]);
       await ClientModel.create(twoClients.clients[1]);
     });
 
-    afterAll(() => fakeDatabase.clean());
+    // afterAll(() => fakeDatabase.clean());
 
     test('It should contain 2 documents', async () => {
       const counter = await ClientModel.countDocuments();
-      expect(counter).toBe(2);
+      expect(counter)
+        .toBe(2);
     });
 
-    test('Check accounts created', async () => {
+    test('Check clients created', async () => {
       const documentList = await ClientModel.find({});
 
       _checkCreated(documentList[0], twoClients.clients[0]);

@@ -19,14 +19,7 @@ module.exports = (mongoose) => {
     await mongoose.connection.close();
   }
 
-  async function clean() {
-    const { collections } = mongoose.connection;
-
-    await Object.keys(collections).map(async (key) => {
-      const collection = collections[key];
-      await collection.deleteMany();
-    });
-  }
+  const clean = () => mongoose.connection.db.dropDatabase();
 
   return {
     clean,
