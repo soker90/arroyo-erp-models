@@ -30,6 +30,7 @@ This is a module of models for Arroyo ERP.
   models.ClientModel // Expose a Client model with its statics & methods
   models.DeliveryOrderModel // Expose a Delivery Order model with its statics & methods
   models.InvoiceModel // Expose a Invoice model with its statics & methods
+  models.NoteModel // Expose a Note model with its statics & methods
   models.PaymentModel // Expose a Payment model with its statics & methods
   models.PriceModel // Expose a Price model with its statics & methods
   models.ProductService // Expose a Product model with its statics & methods
