@@ -53,6 +53,7 @@
       "taxBase": 61.199999999999996,
       "invoice": "5ed16110ed10b76e2856f078",
       "nOrder": 33,
+      "note": "Mi nota de prueba",
       "products": [
         {
           "code": "666645",

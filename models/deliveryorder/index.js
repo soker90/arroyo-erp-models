@@ -13,6 +13,7 @@ const deliveryOrderSchema = new Schema({
   invoice: String, // Id de la factura
   taxBase: Number, // Base imponible total
   nOrder: Number, // Numero de orden de la factura
+  note: String, // Notas del albarán
 });
 
 module.exports = model('DeliveryOrder', deliveryOrderSchema);

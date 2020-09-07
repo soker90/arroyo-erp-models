@@ -11,6 +11,7 @@
   "taxBase": 61.199999999999996,
   "invoice": "5e430c9b7d2d2ded823b153b",
   "nOrder": 2,
+  "note": "Esta es una nota",
   "products": [
     {
       "code": "666645",
