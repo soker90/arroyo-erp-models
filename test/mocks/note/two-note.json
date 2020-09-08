@@ -2,11 +2,19 @@
   "notes": [
     {
       "date": 1589407320000,
-      "message": "Test message"
+      "concept": "Test message",
+      "quantity": "22,3",
+      "price": "5,4€",
+      "amount": "12.3",
+      "clarification": "Aclaraciones"
     },
     {
       "date": 1591213980000,
-      "message": "Un mensaje de prueba para la nota"
+      "concept": "Un mensaje de prueba para la nota",
+      "quantity": "31,3",
+      "price": "1,24€",
+      "amount": "1.23",
+      "clarification": "Unas aclaraciones"
     }
   ]
 }

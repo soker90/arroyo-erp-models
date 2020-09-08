@@ -18,8 +18,16 @@ const { NoteModel } = models;
 const _checkCreated = (document, mock) => {
   expect(document.date)
     .toBe(mock.date);
-  expect(document.message)
-    .toBe(mock.message);
+  expect(document.concept)
+    .toBe(mock.concept);
+  expect(document.quantity)
+    .toBe(mock.quantity);
+  expect(document.price)
+    .toBe(mock.price);
+  expect(document.amount)
+    .toBe(mock.amount);
+  expect(document.clarification)
+    .toBe(mock.clarification);
 };
 
 describe('note', () => {

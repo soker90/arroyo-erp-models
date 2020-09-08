@@ -1,4 +1,8 @@
 {
   "date": 1589407320000,
-  "message": "This is the note"
+  "concept": "This is the note",
+  "quantity": "33",
+  "price": "2€",
+  "amount": "22.3",
+  "clarification": "una aclaracion"
 }
