@@ -14,7 +14,8 @@
       "payments": [
         "5e430c9b7d2d2ded823b153b, 5f187222869c550017e9adf5"
       ],
-      "invoiceDate": 1591213980012
+      "invoiceDate": 1591213980012,
+      "nInvoice": "3/2019"
     },
     {
       "provider": "5f187222869c550017e9adf5",
@@ -29,7 +30,8 @@
       "type": "Talón",
       "numCheque": "8766B",
       "paid": true,
-      "invoiceDate": 1591213980032
+      "invoiceDate": 1591213980032,
+      "nInvoice": "31/2020"
     }
   ]
 }

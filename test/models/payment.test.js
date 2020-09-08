@@ -38,6 +38,8 @@ const _checkCreated = (document, mock) => {
     .toBe(mock.payments?.toString());
   expect(document.invoiceDate)
     .toBe(mock.invoiceDate);
+  expect(document.nInvoice)
+    .toBe(mock.nInvoice);
 };
 
 describe('payment model', () => {

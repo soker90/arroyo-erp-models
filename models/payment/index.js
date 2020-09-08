@@ -13,6 +13,7 @@ const paymentSchema = new Schema({
   paid: Boolean,
   payments: [String],
   invoiceDate: Number,
+  nInvoice: String,
 }, { versionKey: false });
 
 module.exports = model('Payment', paymentSchema);
