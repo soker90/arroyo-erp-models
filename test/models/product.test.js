@@ -31,6 +31,12 @@ const _checkCreated = (document, mock) => {
     .toBe(mock.re);
   expect(document.profit)
     .toBe(mock.profit);
+  expect(document.price)
+    .toBe(mock.price);
+  expect(document.cost)
+    .toBe(mock.cost);
+  expect(document.sale)
+    .toBe(mock.sale);
 };
 
 describe('product', () => {

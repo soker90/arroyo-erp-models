@@ -9,6 +9,9 @@ const productSchema = new Schema({
   iva: Number,
   re: Number,
   profit: Number,
+  price: Number,
+  cost: Number,
+  sale: Number
 }, { versionKey: false });
 
 module.exports = model('Products', productSchema);
