@@ -37,7 +37,8 @@
       "payment": {
         "type": "Efectivo",
         "paymentDate": 1590706800000,
-        "paid": true
+        "paid": true,
+        "invoicesOrder": "23 44"
       }
     }
   ]

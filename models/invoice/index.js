@@ -19,6 +19,7 @@ const invoiceSchema = new Schema({
     type: { type: String },
     numCheque: { type: String },
     paid: { type: Boolean },
+    invoicesOrder: { type: String },
   },
 }, { versionKey: false });
 
