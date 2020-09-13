@@ -10,7 +10,8 @@
       "phone": "123456",
       "email": "info@info.es",
       "businessName": "Proveedor 1 S.L.",
-      "cif": "D4675235884"
+      "cif": "D4675235884",
+      "note": "Una nota para testear"
     },
     {
       "_id": "5e430c9b7d2d2ded823b153c",

@@ -10,6 +10,7 @@ const providersSchema = new Schema({
   email: String,
   businessName: String,
   cif: String,
+  note: String,
 }, { versionKey: false });
 
 module.exports = model('Provider', providersSchema, 'providers');
