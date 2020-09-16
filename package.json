@@ -32,15 +32,15 @@
   "dependencies": {
     "bcrypt": "^5.0.0",
     "bluebird": "^3.7.2",
-    "mongodb-memory-server": "^6.7.4",
+    "mongodb-memory-server": "^6.7.5",
     "mongoose": "^5.10.5",
     "mongoose-connect": "0.0.3"
   },
   "devDependencies": {
-    "eslint": "^7.6.0",
+    "eslint": "^7.9.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jest": "^24.0.0",
+    "eslint-plugin-jest": "^24.0.1",
     "jest": "^26.2.2",
     "jest-circus": "^26.2.2",
     "jest-environment-node": "^26.1.0",
