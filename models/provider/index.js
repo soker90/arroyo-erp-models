@@ -11,6 +11,7 @@ const providersSchema = new Schema({
   businessName: String,
   cif: String,
   note: String,
+  type: String,
 }, { versionKey: false });
 
 module.exports = model('Provider', providersSchema, 'providers');
