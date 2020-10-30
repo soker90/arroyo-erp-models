@@ -33,17 +33,17 @@
     "bcrypt": "^5.0.0",
     "bluebird": "^3.7.2",
     "mongodb-memory-server": "^6.9.2",
-    "mongoose": "^5.10.9",
+    "mongoose": "^5.10.11",
     "mongoose-connect": "0.0.3"
   },
   "devDependencies": {
-    "eslint": "^7.11.0",
+    "eslint": "^7.12.1",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jest": "^24.0.1",
-    "jest": "^26.5.3",
-    "jest-circus": "^26.5.3",
-    "jest-environment-node": "^26.1.0",
+    "jest": "^26.6.1",
+    "jest-circus": "^26.6.1",
+    "jest-environment-node": "^26.6.1",
     "pre-commit": "^1.2.2"
   },
   "jest": {
