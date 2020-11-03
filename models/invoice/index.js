@@ -21,6 +21,7 @@ const invoiceSchema = new Schema({
     paid: { type: Boolean },
     invoicesOrder: { type: String },
   },
+  bookColumn: String, // Name column in book
 }, { versionKey: false });
 
 module.exports = model('Invoice', invoiceSchema);

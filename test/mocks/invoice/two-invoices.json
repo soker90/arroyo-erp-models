@@ -18,7 +18,8 @@
         "type": "Talón",
         "paymentDate": 1590704800000,
         "numCheque": "67757"
-      }
+      },
+      "bookColumn": "Compras"
     },
     {
       "_id": "5ed16182ed10b76e2856f079",
@@ -39,7 +40,8 @@
         "paymentDate": 1590706800000,
         "paid": true,
         "invoicesOrder": "23 44"
-      }
+      },
+      "bookColumn": "Otros"
     }
   ]
 }

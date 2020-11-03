@@ -17,5 +17,6 @@
     "paymentDate": 1590706800000,
     "paid": true,
     "invoicesOrder": "23 44"
-  }
+  },
+  "bookColumn": "Compras"
 }
