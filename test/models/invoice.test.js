@@ -32,6 +32,10 @@ const _checkCreated = (document, mock) => {
   expect(document.payment.paid).toBe(mock.payment.paid);
   expect(document.payment.invoicesOrder).toBe(mock.payment.invoicesOrder);
   expect(document.bookColumn).toBe(mock.bookColumn);
+  expect(document.businessName).toBe(mock.businessName);
+  expect(document.cif).toBe(mock.cif);
+  expect(document.nameProvider).toBe(mock.nameProvider);
+  expect(document.provider).toBe(mock.provider);
 }
 
 describe('invoce', () => {

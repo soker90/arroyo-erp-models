@@ -18,5 +18,9 @@
     "paid": true,
     "invoicesOrder": "23 44"
   },
-  "bookColumn": "Compras"
+  "bookColumn": "Compras",
+  "businessName": "Provider SL",
+  "cif": "23232B",
+  "nameProvider": "provider",
+  "provider": "5e430c9b7d2d2ded823b153b"
 }

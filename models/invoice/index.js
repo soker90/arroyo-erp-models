@@ -22,6 +22,8 @@ const invoiceSchema = new Schema({
     invoicesOrder: { type: String },
   },
   bookColumn: String, // Name column in book
+  businessName: String,
+  cif: String,
 }, { versionKey: false });
 
 module.exports = model('Invoice', invoiceSchema);

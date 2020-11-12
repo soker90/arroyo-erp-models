@@ -19,7 +19,11 @@
         "paymentDate": 1590704800000,
         "numCheque": "67757"
       },
-      "bookColumn": "Compras"
+      "bookColumn": "Compras",
+      "businessName": "Uno SL",
+      "cif": "N657657",
+      "nameProvider": "uno",
+      "provider": "5ed16182ed10b76e2856f079"
     },
     {
       "_id": "5ed16182ed10b76e2856f079",
@@ -41,7 +45,11 @@
         "paid": true,
         "invoicesOrder": "23 44"
       },
-      "bookColumn": "Otros"
+      "bookColumn": "Otros",
+      "businessName": "DOS SL",
+      "cif": "L988",
+      "nameProvider": "dos",
+      "provider": "5e430c9b7d2d2ded823b153b"
     }
   ]
 }
