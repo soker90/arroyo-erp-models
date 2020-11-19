@@ -3,6 +3,9 @@ const { Schema, model } = require('mongoose');
 const clientsSchema = new Schema({
   name: String,
   address: String,
+  city: String,
+  postalCode: String,
+  province: String,
   phone: String,
   email: String,
   businessName: String,
@@ -10,4 +13,3 @@ const clientsSchema = new Schema({
 }, { versionKey: false });
 
 module.exports = model('Client', clientsSchema, 'clients');
-

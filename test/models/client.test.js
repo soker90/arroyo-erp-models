@@ -19,6 +19,12 @@ const _checkCreated = (document, mock) => {
     .toBe(mock._id);
   expect(document.address)
     .toBe(mock.address);
+  expect(document.city)
+    .toBe(mock.city);
+  expect(document.postalCode)
+    .toBe(mock.postalCode);
+  expect(document.province)
+    .toBe(mock.province);
   expect(document.email)
     .toBe(mock.email);
   expect(document.name)
