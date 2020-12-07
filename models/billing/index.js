@@ -1,5 +1,7 @@
-const { Schema, model } = require('mongoose');
-const sumAmount = require('./hooks/sum-amount-pre-updateOne');
+const {
+  Schema,
+  model,
+} = require('mongoose');
 
 const invoiceTrimester = {
   invoice: String,
@@ -18,6 +20,5 @@ const billingSchema = new Schema({
   annual: Number,
 }, { versionKey: false });
 
-billingSchema.pre('updateOne', sumAmount);
 
 module.exports = model('Billing', billingSchema);
