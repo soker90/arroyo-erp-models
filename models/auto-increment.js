@@ -22,6 +22,23 @@ async function getCounter(counterName) {
 
 AutoIncrementSchema.static('increment', getCounter);
 
+/* istanbul ignore next */
+/**
+ * Decrement counter
+ * @param {string} counterName
+ * @return {Promise<*>}
+ */
+async function decreaseCounter(counterName) {
+  const document = await this.findOneAndUpdate(
+    { name: counterName },
+    { $inc: { seq: -1 } },
+  );
+
+  return document.seq;
+}
+
+AutoIncrementSchema.static('decrease', decreaseCounter);
+
 const modelName = 'AutoIncrement';
 
 module.exports = mongoose.model(modelName, AutoIncrementSchema, modelName);
