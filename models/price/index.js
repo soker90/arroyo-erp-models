@@ -6,6 +6,7 @@ const PriceSchema = new Schema({
   price: Number,
   cost: Number,
   sale: Number,
+  deliveryOrder: String,
 }, { versionKey: false });
 
 module.exports = model('Price', PriceSchema);
