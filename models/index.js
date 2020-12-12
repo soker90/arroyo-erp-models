@@ -7,6 +7,7 @@ const InvoiceModel = require('./invoice');
 const NoteModel = require('./note');
 const PaymentModel = require('./payment');
 const PriceModel = require('./price');
+const PriceChangeModel = require('./pricechange');
 const ProductModel = require('./product');
 const ProviderModel = require('./provider');
 
@@ -20,6 +21,7 @@ module.exports = {
   NoteModel,
   PaymentModel,
   PriceModel,
+  PriceChangeModel,
   ProductModel,
   ProviderModel,
 };
