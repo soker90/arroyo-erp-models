@@ -7,6 +7,7 @@ const PriceChangeSchema = new Schema({
   price: Number,
   diff: Number,
   deliveryOrder: String,
+  read: Boolean
 }, { versionKey: false });
 
 module.exports = model('PriceChange', PriceChangeSchema);

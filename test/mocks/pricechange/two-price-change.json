@@ -14,7 +14,8 @@
       "date": 1591213980000,
       "price": 1.1,
       "diff": 0.3,
-      "deliveryOrder": "5edfde2e87ee2c4ab5c72c09"
+      "deliveryOrder": "5edfde2e87ee2c4ab5c72c09",
+      "read": false
     }
   ]
 }
