@@ -33,6 +33,7 @@ This is a module of models for Arroyo ERP.
   models.NoteModel // Expose a Note model with its statics & methods
   models.PaymentModel // Expose a Payment model with its statics & methods
   models.PriceModel // Expose a Price model with its statics & methods
+  models.PriceChangeModel // Expose a Price Change model with its statics & methods
   models.ProductService // Expose a Product model with its statics & methods
   models.ProviderService // Expose a Provider model with its statics & methods
 
