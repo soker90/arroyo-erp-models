@@ -54,6 +54,7 @@
       "invoice": "5ed16110ed10b76e2856f078",
       "nOrder": 33,
       "note": "Mi nota de prueba",
+      "hasCanal": true,
       "products": [
         {
           "code": "666645",

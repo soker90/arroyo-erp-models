@@ -14,6 +14,7 @@ const deliveryOrderSchema = new Schema({
   taxBase: Number, // Base imponible total
   nOrder: Number, // Numero de orden de la factura
   note: String, // Notas del albarán
+  hasCanal: String, // Tiene canal el albarán
 }, { versionKey: false });
 
 module.exports = model('DeliveryOrder', deliveryOrderSchema);

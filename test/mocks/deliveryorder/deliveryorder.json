@@ -12,6 +12,7 @@
   "invoice": "5e430c9b7d2d2ded823b153b",
   "nOrder": 2,
   "note": "Esta es una nota",
+  "hasCanal": true,
   "products": [
     {
       "code": "666645",
