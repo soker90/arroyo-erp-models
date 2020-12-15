@@ -27,6 +27,7 @@ const _checkCreated = (document, mock) => {
   expect(document.cif).toBe(mock.cif);
   expect(document.note).toBe(mock.note);
   expect(document.type).toBe(mock.type);
+  expect(document.hasCanal).toBe(mock.hasCanal);
 };
 
 

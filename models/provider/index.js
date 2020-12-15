@@ -1,4 +1,7 @@
-const { Schema, model } = require('mongoose');
+const {
+        Schema,
+        model,
+      } = require('mongoose');
 
 const providersSchema = new Schema({
   name: String,
@@ -12,6 +15,7 @@ const providersSchema = new Schema({
   cif: String,
   note: String,
   type: String,
+  hasCanal: Boolean,
 }, { versionKey: false });
 
 module.exports = model('Provider', providersSchema, 'providers');

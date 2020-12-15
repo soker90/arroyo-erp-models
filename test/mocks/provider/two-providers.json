@@ -25,7 +25,8 @@
       "email": "correo@info.es",
       "businessName": "Proveedor 2 S.A.",
       "cif": "B11254652",
-      "type": "GENERAL"
+      "type": "GENERAL",
+      "hasCanal": true
     }
   ]
 }
