@@ -23,7 +23,8 @@
       "businessName": "Uno SL",
       "cif": "N657657",
       "nameProvider": "uno",
-      "provider": "5ed16182ed10b76e2856f079"
+      "provider": "5ed16182ed10b76e2856f079",
+      "mailSend": true
     },
     {
       "_id": "5ed16182ed10b76e2856f079",

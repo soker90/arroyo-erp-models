@@ -22,5 +22,6 @@
   "businessName": "Provider SL",
   "cif": "23232B",
   "nameProvider": "provider",
-  "provider": "5e430c9b7d2d2ded823b153b"
+  "provider": "5e430c9b7d2d2ded823b153b",
+  "mailSend": true
 }

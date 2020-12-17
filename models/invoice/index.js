@@ -11,7 +11,6 @@ const invoiceSchema = new Schema({
   nInvoice: String,
   concept: String,
   taxBase: Number,
-  reRental: Number, //Alquiler
   provider: String,
   nameProvider: String,
   payment: {
@@ -24,6 +23,7 @@ const invoiceSchema = new Schema({
   bookColumn: String, // Name column in book
   businessName: String,
   cif: String,
+  mailSend: Boolean, // Ha sido enviada por correo eléctronico
 }, { versionKey: false });
 
 module.exports = model('Invoice', invoiceSchema);
