@@ -10,6 +10,7 @@ const PriceModel = require('./price');
 const PriceChangeModel = require('./pricechange');
 const ProductModel = require('./product');
 const ProviderModel = require('./provider');
+const ReminderModel = require('./reminder');
 
 module.exports = {
   AccountModel,
@@ -24,4 +25,5 @@ module.exports = {
   PriceChangeModel,
   ProductModel,
   ProviderModel,
+  ReminderModel
 };
