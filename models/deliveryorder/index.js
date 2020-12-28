@@ -3,7 +3,8 @@ const { Schema, model } = require('mongoose');
 const deliveryOrderSchema = new Schema({
   date: Number, // Fecha del albarán
   provider: String, // Id del proveedor
-  nameProvider: String, // Nombre del proveedor
+  client: String, // Id del cliente
+  name: String, // Nombre del cliente o proveedor
   products: [], // Listado de productos del albarán
   size: Number, // Número de productos (¿Quitar?)
   total: Number, // Importe total
