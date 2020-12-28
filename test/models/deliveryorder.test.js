@@ -15,8 +15,7 @@ const { DeliveryOrderModel } = models;
 const _checkCreated = (document, mock) => {
   expect(document.products.toString()).toBe(mock.products.toString());
   expect(document.provider).toBe(mock.provider);
-  expect(document.client).toBe(mock.client);
-  expect(document.name).toBe(mock.name);
+  expect(document.nameProvider).toBe(mock.nameProvider);
   expect(document.date).toBe(mock.date);
   expect(document.size).toBe(mock.size);
   expect(document.total).toBe(mock.total);
@@ -53,18 +52,17 @@ describe("deliveryorder", () => {
     });
   });
 
-  describe("Create multiple delivery orders", () => {
+  describe("Create multiple accounts", () => {
     beforeAll(async () => {
       await DeliveryOrderModel.create(twoDeliveryOrder.orders[0]);
       await DeliveryOrderModel.create(twoDeliveryOrder.orders[1]);
-      await DeliveryOrderModel.create(twoDeliveryOrder.orders[2]);
     });
 
     afterAll(() => fakeDatabase.clean());
 
     test("It should contain 2 documents", async () => {
       const counter = await DeliveryOrderModel.countDocuments();
-      expect(counter).toBe(3);
+      expect(counter).toBe(2);
     });
 
     test("Check delivery orders created", async () => {
@@ -72,7 +70,6 @@ describe("deliveryorder", () => {
 
       _checkCreated(documentList[0], twoDeliveryOrder.orders[0]);
       _checkCreated(documentList[1], twoDeliveryOrder.orders[1]);
-      _checkCreated(documentList[2], twoDeliveryOrder.orders[2]);
     });
   });
 });

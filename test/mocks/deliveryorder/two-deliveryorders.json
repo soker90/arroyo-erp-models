@@ -2,7 +2,7 @@
   "orders": [
     {
       "provider": "5e430c9b7d2d2ed823b153b",
-      "name": "Uno",
+      "nameProvider": "Uno",
       "date": 1590706800001,
       "size": 2,
       "total": 3.136,
@@ -43,7 +43,7 @@
     },
     {
       "provider": "5e430c9b7d2d2ded823b153b",
-      "name": "La abuela",
+      "nameProvider": "La abuela",
       "date": 1590706800000,
       "size": 2,
       "total": 323.136,
@@ -80,33 +80,6 @@
           "diff": 121,
           "iva": 269.28000000000003,
           "re": 9.18,
-          "total": 161.568
-        }
-      ]
-    },
-    {
-      "provider": "5e430c9b7d2d2ded823b153b",
-      "name": "La abuela",
-      "date": 1590706800000,
-      "total": 323.136,
-      "invoice": "5ed16110ed10b76e2856f078",
-      "nOrder": 33,
-      "note": "Mi nota de prueba",
-      "products": [
-        {
-          "code": "666645",
-          "product": "5ed16110ed10b76e2856f078",
-          "price": 3,
-          "quantity": 3,
-          "name": "Productor 636",
-          "total": 161.568
-        },
-        {
-          "code": "666645",
-          "product": "5ed16110ed10b76e2856f078",
-          "price": 3,
-          "quantity": 5.1,
-          "name": "Productor 636",
           "total": 161.568
         }
       ]
