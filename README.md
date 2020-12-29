@@ -16,6 +16,10 @@ This is a module of models for Arroyo ERP.
   npm install arroyo-erp-models --save
 ```
 
+## Cambios en la versión
+
+Ver [CHANGELOG](https://github.com/soker90/arroyo-erp-models/blob/master/CHANGELOG.md)
+
 ## Available models
 
 ```javascript
@@ -28,6 +32,7 @@ This is a module of models for Arroyo ERP.
   models.AutoIncrement // Expose a AutoIncrement model with its statics & methods
   models.BillingModel // Expose a Billing model with its statics & methods
   models.ClientModel // Expose a Client model with its statics & methods
+  models.ClientInvoiceModel // Expose a Client Invoice model with its statics & methods
   models.DeliveryOrderModel // Expose a Delivery Order model with its statics & methods
   models.InvoiceModel // Expose a Invoice model with its statics & methods
   models.NoteModel // Expose a Note model with its statics & methods
