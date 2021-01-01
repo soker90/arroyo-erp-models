@@ -1,4 +1,8 @@
-const { Schema, model } = require('mongoose');
+const {
+  Schema,
+  model,
+} = require('mongoose');
+const calcPreSave = require('./hooks/calc-pre-save');
 
 const clientInvoiceSchema = new Schema({
   deliveryOrders: [{
@@ -8,8 +12,8 @@ const clientInvoiceSchema = new Schema({
       weight: Number,
       unit: String,
       price: Number,
-      total: Number
-    }]
+      total: Number,
+    }],
   }],
   date: Number,
   taxBase: Number,
@@ -17,6 +21,9 @@ const clientInvoiceSchema = new Schema({
   total: Number,
   nInvoice: String,
   client: String,
+  nameClient: String,
 }, { versionKey: false });
+
+clientInvoiceSchema.pre('save', calcPreSave);
 
 module.exports = model('ClientInvoice', clientInvoiceSchema);

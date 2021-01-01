@@ -32,9 +32,9 @@ Ver [CHANGELOG](https://github.com/soker90/arroyo-erp-models/blob/master/CHANGEL
   models.AutoIncrement // Expose a AutoIncrement model with its statics & methods
   models.BillingModel // Expose a Billing model with its statics & methods
   models.ClientModel // Expose a Client model with its statics & methods
-  models.ClientInvoiceModel // Expose a Client Invoice model with its statics & methods
+  models.ClientInvoiceModel // Expose a Client ClientInvoice model with its statics & methods
   models.DeliveryOrderModel // Expose a Delivery Order model with its statics & methods
-  models.InvoiceModel // Expose a Invoice model with its statics & methods
+  models.InvoiceModel // Expose a ClientInvoice model with its statics & methods
   models.NoteModel // Expose a Note model with its statics & methods
   models.PaymentModel // Expose a Payment model with its statics & methods
   models.PriceModel // Expose a Price model with its statics & methods
