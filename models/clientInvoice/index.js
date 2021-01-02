@@ -7,6 +7,7 @@ const calcPreSave = require('./hooks/calc-pre-save');
 const clientInvoiceSchema = new Schema({
   deliveryOrders: [{
     date: Number,
+    total: Number,
     products: [{
       name: String,
       weight: Number,
