@@ -17,9 +17,9 @@ const {ClientInvoiceModel} = models;
  */
 const _checkCreated = (document, mock) => {
   expect(document.date).toBe(mock.date);
-  // expect(document.taxBase).toBe(mock.taxBase);
+  expect(document.taxBase).toBe(mock.taxBase);
   expect(document.total).toBe(mock.total);
-  // expect(document.iva).toBe(mock.iva);
+  expect(document.iva).toBe(mock.iva);
   expect(document.nInvoice).toBe(mock.nInvoice);
   expect(document.client).toBe(mock.client);
   document.deliveryOrders.forEach((deliveryOrder, indexDo) => {
