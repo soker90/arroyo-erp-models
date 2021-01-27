@@ -1,4 +1,7 @@
 # Changelog
+## [1.0.2]
+- Actualización de dependencias
+
 ## [1.0.1]
 
 ### Añadido
