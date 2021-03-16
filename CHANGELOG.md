@@ -1,8 +1,5 @@
 # Changelog
-## [1.1.1] - 16/03/2021
- - Actualización de dependencias
- 
-## [1.0.3]
+## [1.0.3] - 16/03/2021
  - Actualización de dependencias
 
 ## [1.0.2]
