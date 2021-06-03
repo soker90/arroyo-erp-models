@@ -7,6 +7,7 @@ const NoteSchema = new Schema({
   price: String,
   amount: String,
   clarification: String,
+  year: String,
 }, { versionKey: false });
 
 module.exports = model('Note', NoteSchema);

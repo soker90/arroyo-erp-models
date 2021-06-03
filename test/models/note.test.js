@@ -28,6 +28,8 @@ const _checkCreated = (document, mock) => {
     .toBe(mock.amount);
   expect(document.clarification)
     .toBe(mock.clarification);
+  expect(document.year)
+    .toBe(mock.year);
 };
 
 describe('note', () => {
