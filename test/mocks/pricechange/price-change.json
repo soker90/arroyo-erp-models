@@ -5,5 +5,6 @@
   "price": 12.2,
   "diff": 1.2,
   "deliveryOrder": "5ee12f369e7c776be6b22881",
-  "read": true
+  "read": true,
+  "cost": 13.5
 }

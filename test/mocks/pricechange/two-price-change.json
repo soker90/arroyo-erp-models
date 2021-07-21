@@ -6,7 +6,8 @@
       "date": 1589407320000,
       "price": 13.2,
       "diff": 3.8,
-      "deliveryOrder": "5ed2cff6506bb0733669bbdd"
+      "deliveryOrder": "5ed2cff6506bb0733669bbdd",
+      "cost": 15.2
     },
     {
       "product": "5ed536ff6dc26539c8031181",
@@ -15,7 +16,8 @@
       "price": 1.1,
       "diff": 0.3,
       "deliveryOrder": "5edfde2e87ee2c4ab5c72c09",
-      "read": false
+      "read": false,
+      "cost": 1.6
     }
   ]
 }

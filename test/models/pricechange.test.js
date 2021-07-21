@@ -22,6 +22,7 @@ const _checkCreated = (document, mock) => {
   expect(document.diff).toBe(mock.diff);
   expect(document.deliveryOrder).toBe(mock.deliveryOrder);
   expect(document.read).toBe(mock.read);
+  expect(document.cost).toBe(mock.cost);
 };
 
 describe('priceChange', () => {

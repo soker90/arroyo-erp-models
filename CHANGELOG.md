@@ -1,4 +1,8 @@
 # Changelog
+## 1.0.6
+  - Añadido coste al modelo de cambio de precios
+  - Actualización de dependencias
+
 ## 1.0.5 - 03/06/2021
   - Añadido año al modelo de notas
 

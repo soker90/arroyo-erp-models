@@ -1,6 +1,6 @@
 {
   "name": "arroyo-erp-models",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Models for arroyo erp",
   "main": "index.js",
   "scripts": {
@@ -32,12 +32,12 @@
   "dependencies": {
     "bcrypt": "^5.0.1",
     "bluebird": "^3.7.2",
-    "mongodb-memory-server": "^7.0.0",
-    "mongoose": "^5.12.12",
+    "mongodb-memory-server": "6.9.6",
+    "mongoose": "^5.13.3",
     "mongoose-connect": "0.0.3"
   },
   "devDependencies": {
-    "eslint": "^7.27.0",
+    "eslint": "^7.31.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-jest": "^24.3.6",
