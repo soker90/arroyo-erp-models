@@ -1,5 +1,5 @@
 # Changelog
-## 1.0.6
+## 1.0.6 - 21/07/2021
   - Añadido coste al modelo de cambio de precios
   - Actualización de dependencias
 
