@@ -37,7 +37,7 @@
     "mongoose-connect": "0.0.3"
   },
   "devDependencies": {
-    "eslint": "^7.31.0",
+    "eslint": "^8.5.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-jest": "^24.3.6",
