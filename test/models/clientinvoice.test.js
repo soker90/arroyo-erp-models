@@ -22,6 +22,7 @@ const _checkCreated = (document, mock) => {
   expect(document.iva).toBe(mock.iva);
   expect(document.nInvoice).toBe(mock.nInvoice);
   expect(document.client).toBe(mock.client);
+  expect(document.businessName).toBe(mock.businessName);
   document.deliveryOrders.forEach((deliveryOrder, indexDo) => {
     expect(deliveryOrder.date).toBe(mock.deliveryOrders[indexDo].date);
     deliveryOrder.products.forEach((product, indexPro) => {

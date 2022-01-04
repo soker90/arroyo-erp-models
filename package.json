@@ -1,6 +1,6 @@
 {
   "name": "arroyo-erp-models",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Models for arroyo erp",
   "main": "index.js",
   "scripts": {
@@ -31,20 +31,20 @@
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
-    "bluebird": "^3.7.2",
-    "mongodb-memory-server": "6.9.6",
-    "mongoose": "^5.13.3",
+    "bluebird": "3.7.2",
+    "mongodb-memory-server": "^8.1.0",
+    "mongoose": "^6.1.5",
     "mongoose-connect": "0.0.3"
   },
   "devDependencies": {
-    "eslint": "^8.5.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-jest": "^25.3.0",
-    "jest": "^27.0.4",
-    "jest-circus": "^27.0.4",
-    "jest-environment-node": "^27.0.3",
-    "pre-commit": "^1.2.2"
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^25.3.4",
+    "jest": "^27.4.5",
+    "jest-circus": "^27.4.5",
+    "jest-environment-node": "27.4.4",
+    "pre-commit": "1.2.2"
   },
   "jest": {
     "bail": true,
@@ -68,5 +68,10 @@
   "keywords": [
     "database",
     "mongodb"
-  ]
+  ],
+  "config": {
+    "mongodbMemoryServer": {
+      "version": "4.4.10"
+    }
+  }
 }
