@@ -1,4 +1,8 @@
 # Changelog
+## 1.0.7 - 04/01/2022
+  - Añadida razón social al modelo ClientInvoice
+  - Actualización de dependencias
+  
 ## 1.0.6 - 21/07/2021
   - Añadido coste al modelo de cambio de precios
   - Actualización de dependencias
