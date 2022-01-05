@@ -1,6 +1,7 @@
 # Changelog
 ## 1.0.8 - 05/01/2022
   - Eliminada configuración obsoleta de mongo
+  - Actualización de dependencias
 
 ## 1.0.7 - 04/01/2022
   - Añadida razón social al modelo ClientInvoice
