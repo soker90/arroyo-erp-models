@@ -22,8 +22,10 @@ const clientInvoiceSchema = new Schema({
   nInvoice: String,
   client: String,
   nameClient: String,
-  paid: Boolean,
   businessName: String,
+  paid: Boolean,
+  paymentType: String,
+  paymentDate: Number
 }, { versionKey: false });
 
 module.exports = model('ClientInvoice', clientInvoiceSchema);
