@@ -1,4 +1,7 @@
 # Changelog
+## 1.1.0 - 7/01/2002
+  - Añadido tipo y fecha de pago al modelo de factura de cliente
+
 ## 1.0.8 - 05/01/2022
   - Eliminada configuración obsoleta de mongo
   - Actualización de dependencias
