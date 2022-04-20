@@ -1,4 +1,7 @@
 # Changelog
+## 1.2.0 - 20/04/2002
+- Añadido campo invoice al modelo de precios
+
 ## 1.1.0 - 7/01/2002
   - Añadido tipo y fecha de pago al modelo de factura de cliente
 
