@@ -8,7 +8,8 @@
           "weight": 2.200,
           "unit": "Kg",
           "price": 2.23,
-          "total": 4.46
+          "total": 4.46,
+          "productId": "5e430c9b7d2a2ded823b153b"
         }
       ]
     }

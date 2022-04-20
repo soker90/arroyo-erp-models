@@ -1,4 +1,7 @@
 # Changelog
+## 1.2.1 - 20/04/2002
+- Añadido campo productId al modelo de factura de clientes para los productos
+
 ## 1.2.0 - 20/04/2002
 - Añadido campo invoice al modelo de precios
 

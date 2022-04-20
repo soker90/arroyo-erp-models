@@ -31,6 +31,7 @@ const _checkCreated = (document, mock) => {
       expect(product.unit).toBe(mock.deliveryOrders[indexDo].products[indexPro].unit);
       expect(product.price).toBe(mock.deliveryOrders[indexDo].products[indexPro].price);
       expect(product.total).toBe(mock.deliveryOrders[indexDo].products[indexPro].total);
+      expect(product.productId).toBe(mock.deliveryOrders[indexDo].products[indexPro].productId);
     })
   })
 }

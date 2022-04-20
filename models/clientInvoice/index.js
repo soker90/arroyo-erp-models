@@ -13,6 +13,7 @@ const clientInvoiceSchema = new Schema({
       unit: String,
       price: Number,
       total: Number,
+      productId: String,
     }],
   }],
   date: Number,

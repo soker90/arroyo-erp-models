@@ -10,7 +10,8 @@
               "weight": 4.200,
               "unit": "Kg",
               "price": 1.43,
-              "total": 5.27
+              "total": 5.27,
+              "productId": "5e430c9b7d2a2ced823b153b"
             }
           ]
         }
@@ -32,7 +33,8 @@
             "weight": 1.700,
             "unit": "Unid",
             "price": 10.77,
-            "total": 17.47
+            "total": 17.47,
+            "productId": "5e430c9b7d2a2dbd823b153b"
           }]
         }
       ],
