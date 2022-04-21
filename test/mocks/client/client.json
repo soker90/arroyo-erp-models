@@ -8,5 +8,6 @@
   "phone": "987456312",
   "email": "info@info.es",
   "businessName": "La abuela S.A.",
-  "cif": "B23654578452"
+  "cif": "B23654578452",
+  "transfer": true
 }

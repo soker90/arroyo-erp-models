@@ -35,6 +35,8 @@ const _checkCreated = (document, mock) => {
     .toBe(mock.businessName);
   expect(document.cif)
     .toBe(mock.cif);
+  expect(document.transfer)
+    .toBe(document.transfer);
 };
 
 describe('client', () => {

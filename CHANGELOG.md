@@ -1,4 +1,7 @@
 # Changelog
+## 1.2.2 - 21/04/2002
+- Añadido campo tranfer al modelo de clientes
+
 ## 1.2.1 - 20/04/2002
 - Añadido campo productId al modelo de factura de clientes para los productos
 

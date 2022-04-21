@@ -9,7 +9,8 @@ const clientsSchema = new Schema({
   phone: String,
   email: String,
   businessName: String,
-  cif: String
+  cif: String,
+  transfer: Boolean
 }, { versionKey: false });
 
 module.exports = model('Client', clientsSchema, 'clients');
