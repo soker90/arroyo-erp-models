@@ -8,7 +8,6 @@ const PriceSchema = new Schema({
   date: Number,
   price: Number,
   cost: Number,
-  sale: Number,
   deliveryOrder: String,
   invoice: String
 }, { versionKey: false });

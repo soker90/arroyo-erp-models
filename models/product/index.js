@@ -8,7 +8,6 @@ const productSchema = new Schema({
   rate: Number,
   iva: Number,
   re: Number,
-  profit: Number,
   price: Number,
   cost: Number,
   sale: Number

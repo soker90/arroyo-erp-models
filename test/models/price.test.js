@@ -19,7 +19,6 @@ const _checkCreated = (document, mock) => {
   expect(document.date).toBe(mock.date);
   expect(document.price).toBe(mock.price);
   expect(document.cost).toBe(mock.cost);
-  expect(document.sale).toBe(mock.sale);
   expect(document.deliveryOrder).toBe(mock.deliveryOrder);
   expect(document.invoice).toBe(mock.invoice);
 };

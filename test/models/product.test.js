@@ -29,8 +29,6 @@ const _checkCreated = (document, mock) => {
     .toBe(mock.iva);
   expect(document.re)
     .toBe(mock.re);
-  expect(document.profit)
-    .toBe(mock.profit);
   expect(document.price)
     .toBe(mock.price);
   expect(document.cost)
