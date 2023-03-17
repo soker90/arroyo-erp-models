@@ -1,4 +1,7 @@
 # Changelog
+## 1.4.0
+- Añadido modelo para el historico de precios de venta de un producto
+
 ## 1.3.0 - 24/06/2022
 - Eliminado campo profit del modelo de producto
 - Eliminado campo sale del modelo de precio

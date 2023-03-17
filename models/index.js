@@ -10,6 +10,7 @@ const PaymentModel = require('./payment');
 const PriceModel = require('./price');
 const PriceChangeModel = require('./pricechange');
 const ProductModel = require('./product');
+const ProductPvpModel = require('./productPvp');
 const ProviderModel = require('./provider');
 const ReminderModel = require('./reminder');
 
@@ -25,6 +26,7 @@ module.exports = {
   PaymentModel,
   PriceModel,
   PriceChangeModel,
+  ProductPvpModel,
   ProductModel,
   ProviderModel,
   ReminderModel
