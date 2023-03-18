@@ -1,4 +1,7 @@
 # Changelog
+## 1.4.1 - 18/09/2023
+  - Eliminado callback al cerrar la conexión de mongoose
+
 ## 1.4.0 - 18/09/2023
   - Añadido modelo para el historico de precios de venta de un producto
 
