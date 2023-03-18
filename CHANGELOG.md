@@ -1,19 +1,19 @@
 # Changelog
-## 1.4.0
-- Añadido modelo para el historico de precios de venta de un producto
+## 1.4.0 - 18/09/2023
+  - Añadido modelo para el historico de precios de venta de un producto
 
 ## 1.3.0 - 24/06/2022
-- Eliminado campo profit del modelo de producto
-- Eliminado campo sale del modelo de precio
+  - Eliminado campo profit del modelo de producto
+  - Eliminado campo sale del modelo de precio
 
 ## 1.2.2 - 21/04/2022
-- Añadido campo tranfer al modelo de clientes
+  - Añadido campo tranfer al modelo de clientes
 
 ## 1.2.1 - 20/04/2022
-- Añadido campo productId al modelo de factura de clientes para los productos
+  - Añadido campo productId al modelo de factura de clientes para los productos
 
 ## 1.2.0 - 20/04/2022
-- Añadido campo invoice al modelo de precios
+  - Añadido campo invoice al modelo de precios
 
 ## 1.1.0 - 7/01/2022
   - Añadido tipo y fecha de pago al modelo de factura de cliente
