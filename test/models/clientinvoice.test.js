@@ -25,6 +25,7 @@ const _checkCreated = (document, mock) => {
   expect(document.businessName).toBe(mock.businessName);
   document.deliveryOrders.forEach((deliveryOrder, indexDo) => {
     expect(deliveryOrder.date).toBe(mock.deliveryOrders[indexDo].date);
+    expect(deliveryOrder.total).toBe(mock.deliveryOrders[indexDo].total);
     deliveryOrder.products.forEach((product, indexPro) => {
       expect(product.name).toBe(mock.deliveryOrders[indexDo].products[indexPro].name);
       expect(product.weight).toBe(mock.deliveryOrders[indexDo].products[indexPro].weight);
