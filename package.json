@@ -33,7 +33,7 @@
     "bcrypt": "^5.0.1",
     "bluebird": "3.7.2",
     "mongodb-memory-server": "^9.0.0",
-    "mongoose": "^7.0.0",
+    "mongoose": "^8.0.0",
     "mongoose-connect": "0.0.3"
   },
   "devDependencies": {
