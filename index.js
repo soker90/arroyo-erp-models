@@ -19,11 +19,6 @@ class Models {
       throw new Error('Missing an `uri` string to establish mongodb connection');
     }
 
-    Object.assign(options, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
-
     await mongooseConnect(mongoose, uri, options);
     return this;
   }

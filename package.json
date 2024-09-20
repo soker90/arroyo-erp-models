@@ -1,6 +1,6 @@
 {
   "name": "arroyo-erp-models",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Models for arroyo erp",
   "main": "index.js",
   "scripts": {
@@ -71,7 +71,7 @@
   ],
   "config": {
     "mongodbMemoryServer": {
-      "version": "4.4.10"
+      "version": "4.4.29"
     }
   }
 }

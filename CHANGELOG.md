@@ -1,4 +1,8 @@
 # Changelog
+## 1.4.2 - 20/09/2024
+  - Actualizadas librerias
+  - Actualizadas github action a node 20
+
 ## 1.4.1 - 18/09/2023
   - Eliminado callback al cerrar la conexión de mongoose
 
