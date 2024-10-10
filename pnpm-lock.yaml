@@ -19,7 +19,7 @@ importers:
         version: 10.0.1
       mongoose:
         specifier: ^8.0.0
-        version: 8.7.0
+        version: 8.7.1
       mongoose-connect:
         specifier: 0.0.3
         version: 0.0.3
@@ -915,6 +915,7 @@ packages:
   eslint@8.57.1:
     resolution: {integrity: sha512-ypowyDxpVSYpkXr9WPv2PAZCtNip1Mv5KTW0SCurXv/9iOpcrH9PaqUElksqEB6pChqHGDRCFTyrZlGhnLNGiA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   espree@9.6.1:
@@ -1599,8 +1600,8 @@ packages:
   mongoose-connect@0.0.3:
     resolution: {integrity: sha512-gVj5KPHTCg8A3oifI7pQb9vNG0B6t56f/mz2Od2fyEoFXaOB4cgBq4PT6L/6eiI9JXK0brXt2883cs1L7MBN/Q==}
 
-  mongoose@8.7.0:
-    resolution: {integrity: sha512-rUCSF1mMYQXjXYdqEQLLlMD3xbcj2j1/hRn+9VnVj7ipzru/UoUZxlj/hWmteKMAh4EFnDZ+BIrmma9l/0Hi1g==}
+  mongoose@8.7.1:
+    resolution: {integrity: sha512-RpNMyhyzLVCVbf8xTVbrf/18G3MqQzNw5pJdvOJ60fzbCa3cOZzz9L+8XpqzBXtRlgZGWv0T7MmOtvrT8ocp1Q==}
     engines: {node: '>=16.20.1'}
 
   mpath@0.9.0:
@@ -4211,7 +4212,7 @@ snapshots:
 
   mongoose-connect@0.0.3: {}
 
-  mongoose@8.7.0:
+  mongoose@8.7.1:
     dependencies:
       bson: 6.8.0
       kareem: 2.6.3
