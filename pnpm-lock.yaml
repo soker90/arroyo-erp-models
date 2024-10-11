@@ -16,7 +16,7 @@ importers:
         version: 3.7.2
       mongodb-memory-server:
         specifier: ^10.0.0
-        version: 10.1.0
+        version: 10.1.1
       mongoose:
         specifier: ^8.0.0
         version: 8.7.1
@@ -1562,12 +1562,12 @@ packages:
   mongodb-connection-string-url@3.0.1:
     resolution: {integrity: sha512-XqMGwRX0Lgn05TDB4PyG2h2kKO/FfWJyCzYQbIhXUxz7ETt0I/FqHjUeqj37irJ+Dl1ZtU82uYyj14u2XsZKfg==}
 
-  mongodb-memory-server-core@10.1.0:
-    resolution: {integrity: sha512-eib56lLOWiJneikoLJE0R0mfnVcKD6wYiEuUNc5bxdhKQZRyPGy6SDp8tVCoJNJdxAgCjlUIurhaq1NtUIHe1A==}
+  mongodb-memory-server-core@10.1.1:
+    resolution: {integrity: sha512-q9BOUM9gc3kjWFtPMtZDztaqqdC7Ewckd4xFdHzlpZfQ+mCsBpFGDzRZSoMJWaIlg9KK2MsZXkuw4wQ825u17Q==}
     engines: {node: '>=16.20.1'}
 
-  mongodb-memory-server@10.1.0:
-    resolution: {integrity: sha512-muyyvITwY3MIfzOedskcO5LJeZs+JBt/T5q5beeXWuXEsMED8o1AGMXzbv2Y2mrmXQscbYnJ1aNXIOfV54HPPQ==}
+  mongodb-memory-server@10.1.1:
+    resolution: {integrity: sha512-FuLEORKL9uIJzA1/eDPCQ3VGsTdsvrSIiNtdmgjIGG9bCBf3v3Q2wh7OHKg2IwZyK+DwAeAwrdDUQSiN4DgrGA==}
     engines: {node: '>=16.20.1'}
 
   mongodb@6.9.0:
@@ -4166,7 +4166,7 @@ snapshots:
       '@types/whatwg-url': 11.0.5
       whatwg-url: 13.0.0
 
-  mongodb-memory-server-core@10.1.0:
+  mongodb-memory-server-core@10.1.1:
     dependencies:
       async-mutex: 0.5.0
       camelcase: 6.3.0
@@ -4190,9 +4190,9 @@ snapshots:
       - socks
       - supports-color
 
-  mongodb-memory-server@10.1.0:
+  mongodb-memory-server@10.1.1:
     dependencies:
-      mongodb-memory-server-core: 10.1.0
+      mongodb-memory-server-core: 10.1.1
       tslib: 2.7.0
     transitivePeerDependencies:
       - '@aws-sdk/credential-providers'
