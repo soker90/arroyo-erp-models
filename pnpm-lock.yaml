@@ -19,7 +19,7 @@ importers:
         version: 10.1.2
       mongoose:
         specifier: ^8.0.0
-        version: 8.7.1
+        version: 8.7.2
       mongoose-connect:
         specifier: 0.0.3
         version: 0.0.3
@@ -1600,8 +1600,8 @@ packages:
   mongoose-connect@0.0.3:
     resolution: {integrity: sha512-gVj5KPHTCg8A3oifI7pQb9vNG0B6t56f/mz2Od2fyEoFXaOB4cgBq4PT6L/6eiI9JXK0brXt2883cs1L7MBN/Q==}
 
-  mongoose@8.7.1:
-    resolution: {integrity: sha512-RpNMyhyzLVCVbf8xTVbrf/18G3MqQzNw5pJdvOJ60fzbCa3cOZzz9L+8XpqzBXtRlgZGWv0T7MmOtvrT8ocp1Q==}
+  mongoose@8.7.2:
+    resolution: {integrity: sha512-Ok4VzMds9p5G3ZSUhmvBm1GdxanbzhS29jpSn02SPj+IXEVFnIdfwAlHHXWkyNscZKlcn8GuMi68FH++jo0flg==}
     engines: {node: '>=16.20.1'}
 
   mpath@0.9.0:
@@ -4212,7 +4212,7 @@ snapshots:
 
   mongoose-connect@0.0.3: {}
 
-  mongoose@8.7.1:
+  mongoose@8.7.2:
     dependencies:
       bson: 6.8.0
       kareem: 2.6.3
