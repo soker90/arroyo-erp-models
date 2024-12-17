@@ -19,7 +19,7 @@ importers:
         version: 10.1.2
       mongoose:
         specifier: ^8.0.0
-        version: 8.9.0
+        version: 8.9.1
       mongoose-connect:
         specifier: 0.0.3
         version: 0.0.3
@@ -1570,33 +1570,6 @@ packages:
     resolution: {integrity: sha512-aDGEWuUVHTiBvaaq03LbpvvSk8IVtepbvp314p1cq7f2xdSpl7igMnYpPfYY5nkks1I5I6OL2ypHjaJj4kBp+g==}
     engines: {node: '>=16.20.1'}
 
-  mongodb@6.10.0:
-    resolution: {integrity: sha512-gP9vduuYWb9ZkDM546M+MP2qKVk5ZG2wPF63OvSRuUbqCR+11ZCAE1mOfllhlAG0wcoJY5yDL/rV3OmYEwXIzg==}
-    engines: {node: '>=16.20.1'}
-    peerDependencies:
-      '@aws-sdk/credential-providers': ^3.188.0
-      '@mongodb-js/zstd': ^1.1.0
-      gcp-metadata: ^5.2.0
-      kerberos: ^2.0.1
-      mongodb-client-encryption: '>=6.0.0 <7'
-      snappy: ^7.2.2
-      socks: ^2.7.1
-    peerDependenciesMeta:
-      '@aws-sdk/credential-providers':
-        optional: true
-      '@mongodb-js/zstd':
-        optional: true
-      gcp-metadata:
-        optional: true
-      kerberos:
-        optional: true
-      mongodb-client-encryption:
-        optional: true
-      snappy:
-        optional: true
-      socks:
-        optional: true
-
   mongodb@6.12.0:
     resolution: {integrity: sha512-RM7AHlvYfS7jv7+BXund/kR64DryVI+cHbVAy9P61fnb1RcWZqOW1/Wj2YhqMCx+MuYhqTRGv7AwHBzmsCKBfA==}
     engines: {node: '>=16.20.1'}
@@ -1627,8 +1600,8 @@ packages:
   mongoose-connect@0.0.3:
     resolution: {integrity: sha512-gVj5KPHTCg8A3oifI7pQb9vNG0B6t56f/mz2Od2fyEoFXaOB4cgBq4PT6L/6eiI9JXK0brXt2883cs1L7MBN/Q==}
 
-  mongoose@8.9.0:
-    resolution: {integrity: sha512-b58zY3PLNBcoz6ZXFckr0leJcVVBMAOBvD+7Bj2ZjghAwntXmNnqwlDixTKQU3UYoQIGTv+AQx/0ThsvaeVrCA==}
+  mongoose@8.9.1:
+    resolution: {integrity: sha512-whM6lWMdeKlUm4d2LSLS/q6cWtTp13lUrL5hy2YTsQdTSN+dsAu8HLdLUQOEgtBE59qp4IqLrjSXCSETbxhkQQ==}
     engines: {node: '>=16.20.1'}
 
   mpath@0.9.0:
@@ -4201,7 +4174,7 @@ snapshots:
       find-cache-dir: 3.3.2
       follow-redirects: 1.15.9(debug@4.3.7)
       https-proxy-agent: 7.0.5
-      mongodb: 6.10.0
+      mongodb: 6.12.0
       new-find-package-json: 2.0.0
       semver: 7.6.3
       tar-stream: 3.1.7
@@ -4231,12 +4204,6 @@ snapshots:
       - socks
       - supports-color
 
-  mongodb@6.10.0:
-    dependencies:
-      '@mongodb-js/saslprep': 1.1.9
-      bson: 6.10.1
-      mongodb-connection-string-url: 3.0.1
-
   mongodb@6.12.0:
     dependencies:
       '@mongodb-js/saslprep': 1.1.9
@@ -4245,7 +4212,7 @@ snapshots:
 
   mongoose-connect@0.0.3: {}
 
-  mongoose@8.9.0:
+  mongoose@8.9.1:
     dependencies:
       bson: 6.10.1
       kareem: 2.6.3
